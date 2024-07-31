@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">wallet_app</string>
+    <string name="transaction_info__title">О транзакции</string>
+    <string name="img_content_arrow_back">arrow back</string>
+    <string name="transaction_info__item_send_from_label">Откуда отправлена</string>
+    <string name="transaction_info__item_send_from_value">2hs…3th</string>
+    <string name="transaction_info__item_send_where_label">Куда отправлена</string>
+    <string name="transaction_info__item_send_where_value">ydr…0dk</string>
+    <string name="transaction_info__item_amount_label">Количество монет</string>
+    <string name="transaction_info__item_amount_value">0.009570</string>
+    <string name="transaction_info__item_time_label">Время</string>
+    <string name="transaction_info__item_time_value">14.07.24 | 20:48</string>
+    <string name="transaction_info__check_btn_label">Проверить ID транзакции</string>
+
+</resources>
