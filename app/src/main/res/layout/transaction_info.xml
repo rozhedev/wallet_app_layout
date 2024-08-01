@@ -2,10 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:background="@color/dark_theme_black"
     >
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
         android:orientation="vertical">
 
         <ImageButton
-            style="@style/LayoutAppearance.Wallet_app.HeaderActionIconLeft"
+            style="@style/HeaderActionIconLeft"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageButton"
@@ -28,15 +28,14 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             />
-
         <TextView
-            style="@style/TextAppearance.Wallet_app.AppTitle"
+            style="@style/AppTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
             android:layout_gravity="center_horizontal"
-            android:text="@string/transaction_info__title"
-            android:textColor="@color/white"
+            android:text="@string/trans_info__title"
+            android:textColor="@color/dark_theme_white"
             app:layout_constraintBottom_toBottomOf="@+id/imageButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -51,107 +50,86 @@
         android:orientation="vertical"
         >
         <LinearLayout
-            style="@style/LayoutAppearance.Wallet_app.TransInfoItem"
+            style="@style/LayoutAppearance.TransInfoItem"
             >
             <TextView
-                style="@style/LayoutAppearance.Wallet_app.TransInfoItem"
+                style="@style/TransInfoItem"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/transaction_info__item_send_from_label"
+                android:text="@string/trans_info__item_send_from_label"
                 android:layout_gravity="start"
                 android:layout_weight="1"
                 />
             <TextView
-                style="@style/LayoutAppearance.Wallet_app.TransInfoItem"
+                style="@style/TransInfoItem"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/transaction_info__item_send_from_value"
+                android:text="@string/trans_info__item_send_from_value"
                 android:textAlignment="textEnd"
                 android:layout_gravity="end"
                 android:layout_weight="1"
                 />
         </LinearLayout>
         <LinearLayout
-            style="@style/LayoutAppearance.Wallet_app.TransInfoItem"
+            style="@style/LayoutAppearance.TransInfoItem"
             android:layout_marginTop="12dp">
             <TextView
-                style="@style/LayoutAppearance.Wallet_app.TransInfoItem"
+                style="@style/TransInfoItem"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/transaction_info__item_send_where_label"
+                android:text="@string/trans_info__item_send_where_label"
                 android:textAlignment="textStart"
                 android:layout_weight="1"
                  />
             <TextView
-                style="@style/LayoutAppearance.Wallet_app.TransInfoItem"
+                style="@style/TransInfoItem"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/transaction_info__item_send_where_value"
+                android:text="@string/trans_info__item_send_where_value"
                 android:textAlignment="textEnd"
                 android:layout_weight="1"
                  />
         </LinearLayout>
         <LinearLayout
-            style="@style/LayoutAppearance.Wallet_app.TransInfoItem"
+            style="@style/LayoutAppearance.TransInfoItem"
             android:layout_marginTop="12dp">
             <TextView
-                style="@style/LayoutAppearance.Wallet_app.TransInfoItem"
+                style="@style/TransInfoItem"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/transaction_info__item_amount_label"
+                android:text="@string/trans_info__item_amount_label"
                 android:textAlignment="textStart"
                 android:layout_weight="1"
                  />
             <TextView
-                style="@style/LayoutAppearance.Wallet_app.TransInfoItem"
+                style="@style/TransInfoItem"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/transaction_info__item_amount_value"
+                android:text="@string/trans_info__item_amount_value"
                 android:textAlignment="textEnd"
                 android:layout_weight="1"
                  />
         </LinearLayout>
         <LinearLayout
-            style="@style/LayoutAppearance.Wallet_app.TransInfoItem"
+            style="@style/TransInfoItem"
             android:layout_marginTop="12dp">
             <TextView
-                style="@style/LayoutAppearance.Wallet_app.TransInfoItem"
+                style="@style/LayoutAppearance.TransInfoItem"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/transaction_info__item_time_label"
+                android:text="@string/trans_info__item_time_label"
                 android:textAlignment="textStart"
                 android:layout_weight="1"
                 />
             <TextView
-                style="@style/LayoutAppearance.Wallet_app.TransInfoItem"
+                style="@style/TransInfoItem"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/transaction_info__item_time_value"
+                android:text="@string/trans_info__item_time_value"
                 android:textAlignment="textEnd"
                 android:layout_weight="1"
                  />
         </LinearLayout>
-       <LinearLayout
-           style="@style/LayoutAppearance.Wallet_app.TransInfoItem"
-           android:layout_marginTop="12dp">
-            <TextView
-                style="@style/LayoutAppearance.Wallet_app.TransInfoItem"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/transaction_info__item_time_label"
-                android:textAlignment="textStart"
-                android:layout_weight="1"
-                 />
-            <TextView
-                style="@style/LayoutAppearance.Wallet_app.TransInfoItem"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/transaction_info__item_time_value"
-                android:textAlignment="textEnd"
-                android:layout_weight="1"
-                />
-        </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -160,11 +138,12 @@
             android:gravity="bottom"
             >
             <Button
-                style="@style/UIAppearance.Wallet_app.GhostBtn"
+                style="@style/GhostBtn"
                 android:layout_width="match_parent"
                 android:layout_height="44dp"
-                android:text="@string/transaction_info__check_btn_label"
+                android:text="@string/trans_info__check_btn_label"
                 android:layout_gravity="bottom"
+                android:textAllCaps="false"
                />
         </LinearLayout>
     </LinearLayout>

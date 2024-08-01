@@ -1,15 +1,30 @@
 <resources>
     <string name="app_name">wallet_app</string>
-    <string name="transaction_info__title">О транзакции</string>
     <string name="img_content_arrow_back">arrow back</string>
-    <string name="transaction_info__item_send_from_label">Откуда отправлена</string>
-    <string name="transaction_info__item_send_from_value">2hs…3th</string>
-    <string name="transaction_info__item_send_where_label">Куда отправлена</string>
-    <string name="transaction_info__item_send_where_value">ydr…0dk</string>
-    <string name="transaction_info__item_amount_label">Количество монет</string>
-    <string name="transaction_info__item_amount_value">0.009570</string>
-    <string name="transaction_info__item_time_label">Время</string>
-    <string name="transaction_info__item_time_value">14.07.24 | 20:48</string>
-    <string name="transaction_info__check_btn_label">Проверить ID транзакции</string>
 
+    <!-- Transaction info -->
+    <string name="trans_info__title">О транзакции</string>
+    <string name="trans_info__item_send_from_label">Откуда отправлена</string>
+    <string name="trans_info__item_send_from_value">2hs…3th</string>
+    <string name="trans_info__item_send_where_label">Куда отправлена</string>
+    <string name="trans_info__item_send_where_value">ydr…0dk</string>
+    <string name="trans_info__item_amount_label">Количество монет</string>
+    <string name="trans_info__item_amount_value">0.009570</string>
+    <string name="trans_info__item_time_label">Время</string>
+    <string name="trans_info__item_time_value">14.07.24 | 20:48</string>
+    <string name="trans_info__check_btn_label">Проверить ID транзакции</string>
+
+    <!-- Send coins -->
+    <string name="send_coins__title">Bitcoin</string>
+    <string name="send_coins__item_operation_type_label">Вид операции</string>
+    <string name="send_coins__item_operation_type_value">отправка</string>
+    <string name="send_coins__item_wallet_label">Кошелёк</string>
+    <string name="send_coins__item_wallet_value">2hs…3th</string>
+    <string name="send_coins__item_coin_label">Монета</string>
+    <string name="send_coins__item_coin_value">BTC</string>
+    <string name="send_coins__item_amount_label">Количество монет</string>
+    <string name="send_coins__item_amount_value">0.009570</string>
+    <string name="send_coins__confirm_operation_label">Я подтверждаю операцию</string>
+    <string name="send_coins__send_btn_label">Отправить</string>
+    <string name="content_descr__bitcoin_icon">bitcoin icon</string>
 </resources>

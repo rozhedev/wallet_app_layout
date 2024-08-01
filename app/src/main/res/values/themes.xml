@@ -3,50 +3,36 @@
 
     <style name="Theme.Wallet_app" parent="android:Theme.Material.Light.NoActionBar" />
 
-    <!--  Layout Appearance-->
-    <style name="LayoutAppearance.Wallet_app.WrapContent" parent="Theme.Wallet_app">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-    </style>
-    <style name="LayoutAppearance.Wallet_app.MatchParent" parent="Theme.Wallet_app">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
-    </style>
-
     <!--  Transaction Info Item  -->
-    <style name="LayoutAppearance.Wallet_app.TransInfoItem" parent="Theme.Wallet_app">
+    <style name="LayoutAppearance.TransInfoItem" parent="Theme.Wallet_app">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">horizontal</item>
-        <item name="android:textColor">@color/white</item>
+        <item name="android:textColor">@color/dark_theme_white</item>
     </style>
-
-
     <!-- UI Appearance -->
-    <style name="LayoutAppearance.Wallet_app.HeaderActionIconLeft" parent="Theme.Wallet_app">
-            <item name="android:background">@drawable/rect_rounded_icon_wrapper</item>
-            <item name="android:padding">12dp</item>
+    <style name="HeaderActionIconLeft" parent="Theme.Wallet_app">
+        <item name="android:background">@drawable/rect_rounded_icon_wrapper</item>
+        <item name="android:padding">12dp</item>
     </style>
-
     <!-- Text Appearance for App Title -->
-    <style name="TextAppearance.Wallet_app.AppTitle" parent="Widget.AppCompat.TextView">
+    <style name="AppTitle" parent="Widget.AppCompat.TextView">
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:letterSpacing">-0.025</item>
         <item name="android:lineSpacingExtra">18.75sp</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold</item>
     </style>
-
     <!--  Transaction Info Item  -->
-    <style name="LayoutAppearance.Wallet_app.TextView" parent="Widget.AppCompat.TextView">
+    <style name="TransInfoItem" parent="Widget.AppCompat.TextView">
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:lineSpacingExtra">16.8sp</item>
         <item name="android:textAlignment">textStart</item>
         <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dark_theme_white</item>
     </style>
-
     <!-- Button Appearance -->
-    <style name="UIAppearance.Wallet_app.GhostBtn" parent="Widget.AppCompat.Button">
+    <style name="GhostBtn" parent="Widget.AppCompat.Button">
         <item name="android:paddingStart">16dp</item>
         <item name="android:paddingEnd">16dp</item>
         <item name="android:paddingTop">12dp</item>
@@ -54,7 +40,7 @@
         <item name="android:textSize">16sp</item>
         <item name="android:lineSpacingExtra">18.75sp</item>
         <item name="android:letterSpacing">-0.025</item>
-        <item name="android:textColor">@color/white</item>
+        <item name="android:textColor">@color/dark_theme_white</item>
         <item name="android:background">@drawable/ghost_btn</item>
     </style>
 </resources>
