@@ -27,4 +27,14 @@
     <string name="send_coins__confirm_operation_label">Я подтверждаю операцию</string>
     <string name="send_coins__send_btn_label">Отправить</string>
     <string name="content_descr__bitcoin_icon">bitcoin icon</string>
+
+    <!-- History -->
+    <string name="history__title">История</string>
+    <string name="history__table_header_type">Вид операции</string>
+    <string name="history__table_header_date">Дата</string>
+    <string name="history__table_content_exchange">Обмен</string>
+    <string name="history__table_content_send">Отправка</string>
+    <string name="history__table_content_receive">Получение</string>
+    <string name="history__table_content_date">14.07.2024</string>
+
 </resources>

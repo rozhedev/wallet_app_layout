@@ -50,7 +50,7 @@
         android:orientation="vertical"
         >
         <LinearLayout
-            style="@style/LayoutAppearance.TransInfoItem"
+            style="@style/LayoutTransInfoItem"
             >
             <TextView
                 style="@style/TransInfoItem"
@@ -71,7 +71,7 @@
                 />
         </LinearLayout>
         <LinearLayout
-            style="@style/LayoutAppearance.TransInfoItem"
+            style="@style/LayoutTransInfoItem"
             android:layout_marginTop="12dp">
             <TextView
                 style="@style/TransInfoItem"
@@ -91,7 +91,7 @@
                  />
         </LinearLayout>
         <LinearLayout
-            style="@style/LayoutAppearance.TransInfoItem"
+            style="@style/LayoutTransInfoItem"
             android:layout_marginTop="12dp">
             <TextView
                 style="@style/TransInfoItem"
@@ -111,10 +111,10 @@
                  />
         </LinearLayout>
         <LinearLayout
-            style="@style/TransInfoItem"
+            style="@style/LayoutTransInfoItem"
             android:layout_marginTop="12dp">
             <TextView
-                style="@style/LayoutAppearance.TransInfoItem"
+                style="@style/LayoutTransInfoItem"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/trans_info__item_time_label"
@@ -143,7 +143,6 @@
                 android:layout_height="44dp"
                 android:text="@string/trans_info__check_btn_label"
                 android:layout_gravity="bottom"
-                android:textAllCaps="false"
                />
         </LinearLayout>
     </LinearLayout>

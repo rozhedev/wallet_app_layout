@@ -4,14 +4,14 @@
     <style name="Theme.Wallet_app" parent="android:Theme.Material.Light.NoActionBar" />
 
     <!--  Transaction Info Item  -->
-    <style name="LayoutAppearance.TransInfoItem" parent="Theme.Wallet_app">
+    <style name="LayoutTransInfoItem">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">horizontal</item>
         <item name="android:textColor">@color/dark_theme_white</item>
     </style>
     <!-- UI Appearance -->
-    <style name="HeaderActionIconLeft" parent="Theme.Wallet_app">
+    <style name="HeaderActionIconLeft">
         <item name="android:background">@drawable/rect_rounded_icon_wrapper</item>
         <item name="android:padding">12dp</item>
     </style>
@@ -31,6 +31,14 @@
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/dark_theme_white</item>
     </style>
+
+    <!--  Divider  -->
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/dark_theme_divider</item>
+    </style>
+
     <!-- Button Appearance -->
     <style name="GhostBtn" parent="Widget.AppCompat.Button">
         <item name="android:paddingStart">16dp</item>
@@ -42,5 +50,15 @@
         <item name="android:letterSpacing">-0.025</item>
         <item name="android:textColor">@color/dark_theme_white</item>
         <item name="android:background">@drawable/ghost_btn</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Primary btn   -->
+    <style name="PrimaryBtn" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/primary_btn</item>
+        <item name="android:text">@string/send_coins__send_btn_label</item>
+        <item name="android:textColor">@color/dark_theme_black</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:textAllCaps">false</item>
     </style>
 </resources>
