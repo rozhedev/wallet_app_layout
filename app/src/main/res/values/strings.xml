@@ -46,4 +46,12 @@
     <string name="staking_info__item_amount_value">0.72462</string>
     <string name="staking_info__item_commission_title">Комиссия</string>
     <string name="staking_info__check_btn_label">На главную</string>
+
+    <!-- Notifications -->
+    <string name="notifications__title">Уведомления</string>
+    <string name="notifications__title">Уведомления</string>
+
+
+
+
 </resources>

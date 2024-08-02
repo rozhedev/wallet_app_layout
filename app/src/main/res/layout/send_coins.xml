@@ -54,7 +54,7 @@
         app:layout_constraintTop_toTopOf="@+id/constraintLayout">
 
         <!--  Block order - #3  -->
-        <include layout="@layout/status_info_item__coin"/>
+        <include layout="@layout/status_info_item__coin" android:id="@+id/status_info_item__coin"/>
 
         <!-- After including remove marginTop. Because block order - #1 -->
         <LinearLayout style="@style/LayoutTransInfoItem"
@@ -77,51 +77,23 @@
                 android:textColor="@color/dark_theme_green"/>
         </LinearLayout>
 
-        <include layout="@layout/status_info_item"/>
-        <include layout="@layout/status_info_item"/>
+        <include layout="@layout/status_info_item" android:id="@+id/status_info_item"/>
+        <include layout="@layout/status_info_item" android:id="@+id/status_info_item"/>
 
         <LinearLayout
             style="@style/Divider"
             android:layout_marginTop="18dp"/>
+        <!-- Checkboxes -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginTop="16dp"
             >
-            <!-- Checkboxes -->
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <!-- Checkbox checked -->
-            <LinearLayout
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:background="@drawable/shape_checkbox_active"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/dark_theme_white"
-                android:layout_marginStart="12dp"
-                android:text="@string/send_coins__confirm_operation_label"/>
-            </LinearLayout>
-
+            <!-- Checkbox checked -->
+            <include layout="@layout/checkbox_checked" android:id="@+id/checkbox_checked"/>
             <!-- Checkbox unchecked -->
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-            <LinearLayout
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:background="@drawable/shape_checkbox"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/dark_theme_white"
-                android:layout_marginStart="12dp"
-                android:text="@string/send_coins__confirm_operation_label"/>
-            </LinearLayout>
+            <include layout="@layout/checkbox_normal" android:id="@+id/checkbox_normal"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
