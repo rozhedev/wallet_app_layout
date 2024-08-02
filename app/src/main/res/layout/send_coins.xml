@@ -7,7 +7,6 @@
     android:orientation="vertical"
     android:background="@color/dark_theme_black"
     >
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
@@ -35,7 +34,6 @@
             style="@style/AppTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:layout_gravity="center_horizontal"
             android:text="@string/send_coins__title"
             android:textColor="@color/dark_theme_white"
@@ -53,10 +51,6 @@
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="@+id/constraintLayout">
 
-        <!--  Block order - #3  -->
-        <include layout="@layout/status_info_item__coin" android:id="@+id/status_info_item__coin"/>
-
-        <!-- After including remove marginTop. Because block order - #1 -->
         <LinearLayout style="@style/LayoutTransInfoItem"
             android:layout_marginTop="12dp">
             <TextView
@@ -78,11 +72,12 @@
         </LinearLayout>
 
         <include layout="@layout/status_info_item" android:id="@+id/status_info_item"/>
+        <include layout="@layout/status_info_item__coin" android:id="@+id/status_info_item__coin"/>
         <include layout="@layout/status_info_item" android:id="@+id/status_info_item"/>
-
         <LinearLayout
             style="@style/Divider"
             android:layout_marginTop="18dp"/>
+
         <!-- Checkboxes -->
         <LinearLayout
             android:layout_width="wrap_content"

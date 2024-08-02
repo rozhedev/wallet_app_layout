@@ -49,9 +49,11 @@
 
     <!-- Notifications -->
     <string name="notifications__title">Уведомления</string>
-    <string name="notifications__title">Уведомления</string>
-
-
-
-
+    <string name="notifications_item__allow_notif">Разрешить уведомления</string>
+    <string name="notifications_item__activity">Активность в кошельке</string>
+    <string name="notifications_item__activity_descr">Уведомления за получение средств</string>
+    <string name="notifications_item__updates">Обновление продукта</string>
+    <string name="notifications_item__updates_descr">Уведомления об обновлениях</string>
+    <string name="notifications_item__promo">Акции</string>
+    <string name="notifications_item__promo_descr">Уведомления о акциях кошелька</string>
 </resources>

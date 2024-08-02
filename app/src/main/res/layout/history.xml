@@ -90,8 +90,7 @@
             android:orientation="vertical"
             app:layout_constraintTop_toTopOf="@+id/constraintLayout">
 
-            <include layout="@layout/history_item" android:id="@+id/history_item"/>
-
+            <include layout="@layout/history_item"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
