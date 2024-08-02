@@ -53,7 +53,12 @@
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="@+id/constraintLayout">
 
-        <LinearLayout style="@style/LayoutTransInfoItem" >
+        <!--  Block order - #3  -->
+        <include layout="@layout/status_info_item__coin"/>
+
+        <!-- After including remove marginTop. Because block order - #1 -->
+        <LinearLayout style="@style/LayoutTransInfoItem"
+            android:layout_marginTop="12dp">
             <TextView
                 style="@style/TransInfoItem"
                 android:layout_width="0dp"
@@ -71,75 +76,10 @@
                 android:textAlignment="textEnd"
                 android:textColor="@color/dark_theme_green"/>
         </LinearLayout>
-        <LinearLayout style="@style/LayoutTransInfoItem"
-            android:layout_marginTop="12dp">
-            <TextView
-                style="@style/TransInfoItem"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:layout_weight="1"
-                android:text="@string/send_coins__item_wallet_label" />
-            <TextView
-                style="@style/TransInfoItem"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:layout_weight="1"
-                android:text="@string/send_coins__item_wallet_value"
-                android:textAlignment="textEnd"
-                />
-        </LinearLayout>
-        <LinearLayout style="@style/LayoutTransInfoItem"
-            android:layout_marginTop="12dp">
-            <TextView
-                style="@style/TransInfoItem"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:layout_weight="1"
-                android:text="@string/send_coins__item_coin_label" />
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="horizontal"
-                android:gravity="end">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/ic_bitcoin_btc_rounded"
-                android:contentDescription="@string/content_descr__bitcoin_icon"/>
 
-                <TextView
-                style="@style/TransInfoItem"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:text="@string/send_coins__item_coin_value"
-                android:textAlignment="textEnd"
-                    android:layout_marginStart="6dp"
-                    />
-            </LinearLayout>
-        </LinearLayout>
-        <LinearLayout style="@style/LayoutTransInfoItem"
-            android:layout_marginTop="12dp">
-            <TextView
-                style="@style/TransInfoItem"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:layout_weight="1"
-                android:text="@string/send_coins__item_amount_label" />
-            <TextView
-                style="@style/TransInfoItem"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:layout_weight="1"
-                android:text="@string/send_coins__item_amount_value"
-                android:textAlignment="textEnd" />
-        </LinearLayout>
+        <include layout="@layout/status_info_item"/>
+        <include layout="@layout/status_info_item"/>
+
         <LinearLayout
             style="@style/Divider"
             android:layout_marginTop="18dp"/>

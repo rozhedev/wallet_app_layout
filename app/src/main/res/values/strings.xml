@@ -1,4 +1,5 @@
 <resources>
+    <!-- Icons contentDescription -->
     <string name="app_name">wallet_app</string>
     <string name="img_text__ic_arrow_back">icon arrow back</string>
     <string name="img_text__ic_receive">icon receive</string>
@@ -40,4 +41,9 @@
     <string name="history__table_content_receive">Получение</string>
     <string name="history__table_content_date">14.07.2024</string>
 
+    <!--  Staking info  -->
+    <string name="staking_info__title">Об операции</string>
+    <string name="staking_info__item_amount_value">0.72462</string>
+    <string name="staking_info__item_commission_title">Комиссия</string>
+    <string name="staking_info__check_btn_label">На главную</string>
 </resources>

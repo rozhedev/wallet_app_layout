@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="@string/trans_info__title"
+            android:text="@string/staking_info__title"
             android:textColor="@color/dark_theme_white"
             app:layout_constraintBottom_toBottomOf="@+id/imageButton"
             app:layout_constraintEnd_toEndOf="parent"
@@ -47,43 +47,11 @@
         android:layout_marginTop="16dp"
         android:layout_marginHorizontal="20dp"
         android:orientation="vertical">
+
+        <include layout="@layout/status_info_item__coin"/>
         <include layout="@layout/status_info_item"/>
         <include layout="@layout/status_info_item"/>
-        <LinearLayout
-            style="@style/LayoutTransInfoItem"
-            android:layout_marginTop="12dp">
-            <TextView
-                style="@style/TransInfoItem"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/send_coins__item_coin_label"
-                android:textAlignment="textStart"
-                android:layout_weight="1"
-                />
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="horizontal"
-                android:gravity="end">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/ic_bitcoin_btc_rounded"
-                android:contentDescription="@string/content_descr__bitcoin_icon"
-                />
-            <TextView
-                style="@style/TransInfoItem"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/send_coins__item_coin_value"
-                android:textAlignment="textEnd"
-                android:layout_marginStart="6dp"
-                />
-            </LinearLayout>
-        </LinearLayout>
-        <include layout="@layout/status_info_item"/>
-        <include layout="@layout/status_info_item"/>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -92,12 +60,12 @@
             android:gravity="bottom"
             >
             <Button
-                style="@style/GhostBtn"
+                style="@style/PrimaryBtn"
                 android:layout_width="match_parent"
                 android:layout_height="44dp"
-                android:text="@string/trans_info__check_btn_label"
+                android:text="@string/staking_info__check_btn_label"
                 android:layout_gravity="bottom"
-               />
+                />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
