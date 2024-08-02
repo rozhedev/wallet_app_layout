@@ -108,7 +108,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/btc_icon_rounded"
+                android:background="@drawable/ic_bitcoin_btc_rounded"
                 android:contentDescription="@string/content_descr__bitcoin_icon"/>
 
                 <TextView
@@ -158,7 +158,7 @@
             <LinearLayout
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:background="@drawable/checkbox"/>
+                android:background="@drawable/shape_checkbox_active"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -174,7 +174,7 @@
             <LinearLayout
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:background="@drawable/checkbox_uncheck"/>
+                android:background="@drawable/shape_checkbox"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
