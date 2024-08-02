@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">wallet_app</string>
-    <string name="img_content_arrow_back">arrow back</string>
+    <string name="img_text__ic_arrow_back">icon arrow back</string>
+    <string name="img_text__ic_receive">icon receive</string>
+    <string name="img_text__ic_send">icon send</string>
+    <string name="img_text__ic_exchange">icon exchange</string>
 
     <!-- Transaction info -->
     <string name="trans_info__title">О транзакции</string>
