@@ -60,23 +60,14 @@
                 android:src="@drawable/ic_notifications"
                 android:layout_gravity="center"
                 />
-            <TextView
-                android:layout_width="wrap_content"
+            <Switch
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:checked="true"
                 android:text="@string/notifications_item__allow_notif"
                 android:textColor="@color/dark_theme_white"
                 android:layout_marginStart="12dp"
                 />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="end">
-            <Switch
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="true"
-                />
-            </LinearLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -94,7 +85,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginStart="12dp"
+                android:layout_marginHorizontal="12dp"
                 >
             <TextView
                 android:layout_width="wrap_content"
@@ -110,16 +101,11 @@
                 android:lineSpacingExtra="15.12dp"
                 />
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="end">
             <Switch
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:checked="true"
                 />
-            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
