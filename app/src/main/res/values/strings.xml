@@ -5,6 +5,7 @@
     <string name="img_text__ic_receive">icon receive</string>
     <string name="img_text__ic_send">icon send</string>
     <string name="img_text__ic_exchange">icon exchange</string>
+    <string name="img_text__shape_rounded_divider">shape rounded divider</string>
 
     <!-- Transaction info -->
     <string name="trans_info__title">О транзакции</string>
@@ -56,4 +57,31 @@
     <string name="notifications_item__updates_descr">Уведомления об обновлениях</string>
     <string name="notifications_item__promo">Акции</string>
     <string name="notifications_item__promo_descr">Уведомления о акциях кошелька</string>
+
+    <!-- Main screen   -->
+    <string name="main__title">Ваш кошелек</string>
+    <string name="main_balance__title">Баланс</string>
+    <string name="main_balance__value">0.0000371</string>
+    <string name="main_balance__currency">USDT</string>
+    <string name="main_balance_btc__title">BTC</string>
+    <string name="main_balance_btc__subtitle">Bitcoin</string>
+    <string name="main_balance_btc__value">0.000044646</string>
+    <string name="main_balance_btc__fiat_amount">=0.000044646</string>
+    <string name="main_balance_btc__fiat_currency">USD</string>
+    <string name="main_balance__btn">Добавить монеты</string>
+
+    <!--  Quick actions  -->
+    <string name="quick_actions__buy">Купить</string>
+    <string name="quick_actions__get">Получить</string>
+    <string name="quick_actions__send">Отправить</string>
+    <string name="quick_actions__exchange">Обменять</string>
+
+    <!--  Exchange  -->
+    <string name="exchange__title">Обмен монет</string>
+    <string name="exchange__inp_give_coin">Монета, которую хотите отдать</string>
+    <string name="exchange__inp_select">Выбрать из списка</string>
+    <string name="exchange__inp_coin_count">Количество монет</string>
+    <string name="exchange__validation_err">Максимальное количество - 11.536746</string>
+    <string name="exchange__inp_get_coin">Монета, которую хотите получить</string>
+    <string name="exchange__confirm_btn">Подтвердить выбор</string>
 </resources>

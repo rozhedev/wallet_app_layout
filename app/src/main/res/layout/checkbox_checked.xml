@@ -7,7 +7,8 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:background="@drawable/shape_checkbox_active"
-        android:id="@+id/icon"/>
+        android:id="@+id/icon"
+        android:orientation="horizontal"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

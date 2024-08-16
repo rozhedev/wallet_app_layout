@@ -21,6 +21,14 @@ class MainActivity : ComponentActivity() {
         // setContentView(R.layout.transaction_info)
         // Send coins
         setContentView(R.layout.send_coins)
+        // Notifications
+        // setContentView(R.layout.notifications)
+        // History
+        // setContentView(R.layout.history)
+        // Staking info
+        // setContentView(R.layout.staking_info)
+        // Transaction info
+        // setContentView(R.layout.transaction_info)
     }
 }
 

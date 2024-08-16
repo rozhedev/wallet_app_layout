@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -67,7 +68,7 @@
                 android:text="@string/notifications_item__allow_notif"
                 android:textColor="@color/dark_theme_white"
                 android:layout_marginStart="12dp"
-                />
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -105,7 +106,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:checked="true"
-                />
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout_switch1"
+            style="@style/SetBackgroundSwitch"
+            android:layout_width="55dp"
+            android:paddingEnd="3dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:gravity="start"
+            android:layout_height="33dp"
+            android:layout_marginTop="16dp">
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/themesSwitch"
+                android:translationZ="100dp"
+                style="@style/iOSSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                app:trackTint="@color/dark_theme_black"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
