@@ -71,9 +71,11 @@
                 android:textColor="@color/dark_theme_green"/>
         </LinearLayout>
 
+        <!--    Status info item & modifications    -->
         <include layout="@layout/status_info_item" android:id="@+id/status_info_item"/>
         <include layout="@layout/status_info_item__coin" android:id="@+id/status_info_item__coin"/>
         <include layout="@layout/status_info_item" android:id="@+id/status_info_item"/>
+
         <LinearLayout
             style="@style/Divider"
             android:layout_marginTop="18dp"/>

@@ -7,6 +7,8 @@
     <string name="img_text__ic_exchange">icon exchange</string>
     <string name="img_text__shape_rounded_divider">shape rounded divider</string>
 
+    <string name="confirm_operation_label">Я подтверждаю операцию</string>
+
     <!-- Transaction info -->
     <string name="trans_info__title">О транзакции</string>
     <string name="trans_info__item_send_from_label">Откуда отправлена</string>
@@ -29,7 +31,6 @@
     <string name="send_coins__item_coin_value">BTC</string>
     <string name="send_coins__item_amount_label">Количество монет</string>
     <string name="send_coins__item_amount_value">0.009570</string>
-    <string name="send_coins__confirm_operation_label">Я подтверждаю операцию</string>
     <string name="send_coins__send_btn_label">Отправить</string>
     <string name="content_descr__bitcoin_icon">bitcoin icon</string>
 
@@ -76,7 +77,7 @@
     <string name="quick_actions__send">Отправить</string>
     <string name="quick_actions__exchange">Обменять</string>
 
-    <!--  Exchange  -->
+    <!--  Exchange coins -->
     <string name="exchange__title">Обмен монет</string>
     <string name="exchange__inp_give_coin">Монета, которую хотите отдать</string>
     <string name="exchange__inp_select">Выбрать из списка</string>
@@ -84,4 +85,12 @@
     <string name="exchange__validation_err">Максимальное количество - 11.536746</string>
     <string name="exchange__inp_get_coin">Монета, которую хотите получить</string>
     <string name="exchange__confirm_btn">Подтвердить выбор</string>
+
+    <!--  Exchange info -->
+    <string name="exchange_info__title">BTC/DOT</string>
+    <string name="exchange_info__oper_type">обмен</string>
+    <string name="exchange_info__give">Отдать</string>
+    <string name="exchange_info__get">Получить</string>
+    <string name="exchange_info__get_coin">DOT</string>
+    <string name="exchange_info__ex_btn">Обменять</string>
 </resources>
