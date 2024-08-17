@@ -7,6 +7,13 @@
     <string name="img_text__ic_exchange">icon exchange</string>
     <string name="img_text__shape_rounded_divider">shape rounded divider</string>
 
+    <!--  Quick actions  -->
+    <string name="quick_actions__buy">Купить</string>
+    <string name="quick_actions__get">Получить</string>
+    <string name="quick_actions__send">Отправить</string>
+    <string name="quick_actions__give">Отдать</string>
+    <string name="quick_actions__exchange">Обменять</string>
+
     <!-- Universal content -->
     <string name="confirm_operation_label">Я подтверждаю операцию</string>
 
@@ -42,7 +49,24 @@
         <a href="">потеря фразы может привести к невозможности доступа к вашим средствам</a>
         , потому что кошелек не хранит никакой копии вашей фразы и только вы являетесь ее владельцем.
     </string>
-    <string name="create_wallet__checkbox_agree">Я понимаю и принимаю ответственность за сохранность своей Seed-фразы</string>
+    <string name="create_wallet__checkbox_agree">Я понимаю и принимаю ответственность засохранность своей Seed-фразы</string>
+
+    <!-- Create seed -->
+    <string name="create_seed__title">Seed-фраза</string>
+    <string name="create_seed__item1">art</string>
+    <string name="create_seed__item2">bottle</string>
+    <string name="create_seed__item3">pillow</string>
+    <string name="create_seed__item4">brush</string>
+    <string name="create_seed__item5">music</string>
+    <string name="create_seed__item6">love</string>
+    <string name="create_seed__item7">note</string>
+    <string name="create_seed__item8">stranger</string>
+    <string name="create_seed__item9">coffee</string>
+    <string name="create_seed__item10">twist</string>
+    <string name="create_seed__item11">pumpkin</string>
+    <string name="create_seed__item12">adore</string>
+    <string name="create_seed__copy_btn">Скопировать</string>
+    <string name="create_seed__notice">В целях безопасности никому не передавайте вашу Seed-фразу.</string>
 
     <!-- Transaction info -->
     <string name="trans_info__title">О транзакции</string>
@@ -105,13 +129,6 @@
     <string name="main_balance_btc__fiat_amount">=0.000044646</string>
     <string name="main_balance_btc__fiat_currency">USD</string>
     <string name="main_balance__btn">Добавить монеты</string>
-
-    <!--  Quick actions  -->
-    <string name="quick_actions__buy">Купить</string>
-    <string name="quick_actions__get">Получить</string>
-    <string name="quick_actions__send">Отправить</string>
-    <string name="quick_actions__give">Отдать</string>
-    <string name="quick_actions__exchange">Обменять</string>
 
     <!--  Exchange coins -->
     <string name="exchange__title">Обмен монет</string>
