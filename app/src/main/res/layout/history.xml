@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@color/dark_theme_black"
     >
-    <include layout="@layout/primary_heading" android:id="@+id/primary_heading"/>
+    <include layout="@layout/comp_primary_header" android:id="@+id/primary_heading"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -50,7 +50,7 @@
             android:orientation="vertical"
             app:layout_constraintTop_toTopOf="@+id/constraintLayout">
 
-            <include layout="@layout/history_item"/>
+            <include layout="@layout/comp_history_item"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

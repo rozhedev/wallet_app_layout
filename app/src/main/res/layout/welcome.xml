@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_theme_black">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_theme_white"
+            android:text="@string/welcome__descr"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="28dp"
+            android:gravity="bottom"
+            >
+            <Button
+                style="@style/PrimaryBtn"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:text="@string/staking_info__check_btn_label"
+                android:layout_gravity="bottom"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

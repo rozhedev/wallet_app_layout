@@ -19,7 +19,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_bitcoin_btc_rounded"
+            android:background="@drawable/coin_btc_rounded"
             android:contentDescription="@string/content_descr__bitcoin_icon"
             android:id="@+id/icon"
             />

@@ -7,6 +7,7 @@
     <string name="img_text__ic_exchange">icon exchange</string>
     <string name="img_text__shape_rounded_divider">shape rounded divider</string>
 
+    <!-- Universal content -->
     <string name="confirm_operation_label">Я подтверждаю операцию</string>
 
     <!-- Transaction info -->
@@ -20,6 +21,9 @@
     <string name="trans_info__item_time_label">Время</string>
     <string name="trans_info__item_time_value">14.07.24 | 20:48</string>
     <string name="trans_info__check_btn_label">Проверить ID транзакции</string>
+
+    <!-- Welcome -->
+    <string name="welcome__descr">Ваш ключ к независимости: управляйте криптоактивами с уверенностью и безопасностью</string>
 
     <!-- Send coins -->
     <string name="send_coins__title">Bitcoin</string>
@@ -93,4 +97,5 @@
     <string name="exchange_info__get">Получить</string>
     <string name="exchange_info__get_coin">DOT</string>
     <string name="exchange_info__ex_btn">Обменять</string>
+
 </resources>
