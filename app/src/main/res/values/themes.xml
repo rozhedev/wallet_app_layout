@@ -21,13 +21,20 @@
         <item name="android:textSize">19sp</item>
         <item name="android:textStyle">bold</item>
     </style>
-    <!-- Text Appearance for App Title -->
+    <!-- Text Appearance for App Title (Bold text) -->
     <style name="AppTitle" parent="Widget.AppCompat.TextView">
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:letterSpacing">-0.025</item>
         <item name="android:lineSpacingExtra">18.75sp</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Text Appearance for App Title -->
+    <style name="Heading3" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:letterSpacing">-0.025</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:color">@color/dark_theme_white</item>
     </style>
     <!--  Transaction Info Item  -->
     <style name="TransInfoItem" parent="Widget.AppCompat.TextView">

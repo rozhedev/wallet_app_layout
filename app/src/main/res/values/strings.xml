@@ -24,6 +24,7 @@
 
     <!-- Welcome -->
     <string name="welcome__descr">Ваш ключ к независимости: управляйте криптоактивами с уверенностью и безопасностью</string>
+    <string name="welcome__btn_label">Начать</string>
 
     <!-- Send coins -->
     <string name="send_coins__title">Bitcoin</string>
