@@ -2,7 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout style="@style/LayoutTransInfoItem" android:layout_marginTop="12dp">
     <TextView
-        style="@style/TransInfoItem"
+        style="@style/Body"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/send_coins__item_coin_label"
@@ -24,7 +24,7 @@
             android:id="@+id/icon"
             />
         <TextView
-            style="@style/TransInfoItem"
+            style="@style/Body"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/send_coins__item_coin_value"

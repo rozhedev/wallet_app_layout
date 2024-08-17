@@ -54,7 +54,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/TransInfoItem"
+            style="@style/Body"
             android:text="@string/exchange__inp_coin_count"
             android:layout_marginBottom="4dp"/>
         <EditText
@@ -68,7 +68,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/TransInfoItem"
+            style="@style/Body"
             android:text="@string/exchange__validation_err"
             android:textColorHint="@color/dark_theme_gray"
             android:hint="@string/exchange__inp_select"

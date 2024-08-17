@@ -26,6 +26,12 @@
     <string name="welcome__descr">Ваш ключ к независимости: управляйте криптоактивами с уверенностью и безопасностью</string>
     <string name="welcome__btn_label">Начать</string>
 
+    <!-- Onboarding -->
+    <string name="onboarding__descr">Откройте для себя мир криптовалют: становитесь частью будущего с нашим кошельком</string>
+    <string name="onboarding__notice">Создайте абсолютно новый кошелек. Или добавьте уже существующий</string>
+    <string name="onboarding__create_btn_label">Создать кошелек</string>
+    <string name="onboarding__import_btn_label">Импортировать кошелек</string>
+
     <!-- Send coins -->
     <string name="send_coins__title">Bitcoin</string>
     <string name="send_coins__item_operation_type_label">Вид операции</string>
