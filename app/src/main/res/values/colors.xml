@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="dark_theme_red">#F45353</color>
     <color name="dark_theme_green">#20EB65</color>
+    <color name="dark_theme_dot_green">#1A5B2F</color>
     <color name="dark_theme_dark_green">#1D241E</color>
     <color name="dark_theme_black">#121111</color>
-    <color name="dark_theme_white">#FEFEFE</color>
     <color name="dark_theme_divider">#3F3F3F</color>
     <color name="dark_theme_gray">#8C8C8C</color>
-    <color name="dark_theme_red">#F45353</color>
+    <color name="dark_theme_white">#FEFEFE</color>
 </resources>

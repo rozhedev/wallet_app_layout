@@ -10,6 +10,40 @@
     <!-- Universal content -->
     <string name="confirm_operation_label">Я подтверждаю операцию</string>
 
+    <!-- Welcome -->
+    <string name="welcome__descr">Ваш ключ к независимости: управляйте криптоактивами с уверенностью и безопасностью</string>
+    <string name="welcome__btn_label">Начать</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding__descr">Откройте для себя мир криптовалют: становитесь частью будущего с нашим кошельком</string>
+    <string name="onboarding__notice">Создайте абсолютно новый кошелек. Или добавьте уже существующий</string>
+    <string name="onboarding__create_btn_label">Создать кошелек</string>
+    <string name="onboarding__import_btn_label">Импортировать кошелек</string>
+
+    <!-- Create wallet -->
+    <string name="create_wallet__title">Создание кошелька</string>
+    <string name="create_wallet__about_title">Что такое Seed-фраза?</string>
+    <string name="create_wallet__about_descr">Seed-фраза, также известная как мнемоническая фраза, — это набор из 12, 18 или 24 слов, который используется для создания ключей доступа к вашему криптовалютному кошельку. Эта фраза выполняет несколько важных функций:</string>
+
+    <string name="create_wallet__about_item_imgDescr1">img_repeat_success</string>
+    <string name="create_wallet__about_item_imgDescr2">img_safety</string>
+    <string name="create_wallet__about_item_imgDescr3">img_search_control</string>
+
+    <string name="create_wallet__about_item_title1">Восстановление кошелька</string>
+    <string name="create_wallet__about_item_title2">Безопасность</string>
+    <string name="create_wallet__about_item_title3">Полный контроль</string>
+
+    <string name="create_wallet__about_item_descr1">Seed-фраза позволяет восстановить доступ к вашему кошельку на любом устройстве. При потере или поломке устройства вы сможете восстановить все свои криптоактивы, используя только вашу seed-фразу.</string>
+    <string name="create_wallet__about_item_descr2">Seed-фраза должна храниться в секрете и никогда не передаваться посторонним. Не храните её в цифровом формате или в местах, доступных другим. Запишите её на бумаге и храните в надёжном и безопасном месте.</string>
+    <string name="create_wallet__about_item_descr3">С помощью seed-фразы вы получаете полный контроль над своими криптовалютами. Отсутствие зависимости от банков или других финансовых учреждений усиливает вашу финансовую независимость.</string>
+
+    <string name="create_wallet__notice">
+        Перед созданием вашего кошелька вам будет предложено записать вашу seed-фразу. Подходите к этому ответственно —
+        <a href="">потеря фразы может привести к невозможности доступа к вашим средствам</a>
+        , потому что кошелек не хранит никакой копии вашей фразы и только вы являетесь ее владельцем.
+    </string>
+    <string name="create_wallet__checkbox_agree">Я понимаю и принимаю ответственность за сохранность своей Seed-фразы</string>
+
     <!-- Transaction info -->
     <string name="trans_info__title">О транзакции</string>
     <string name="trans_info__item_send_from_label">Откуда отправлена</string>
@@ -21,16 +55,6 @@
     <string name="trans_info__item_time_label">Время</string>
     <string name="trans_info__item_time_value">14.07.24 | 20:48</string>
     <string name="trans_info__check_btn_label">Проверить ID транзакции</string>
-
-    <!-- Welcome -->
-    <string name="welcome__descr">Ваш ключ к независимости: управляйте криптоактивами с уверенностью и безопасностью</string>
-    <string name="welcome__btn_label">Начать</string>
-
-    <!-- Onboarding -->
-    <string name="onboarding__descr">Откройте для себя мир криптовалют: становитесь частью будущего с нашим кошельком</string>
-    <string name="onboarding__notice">Создайте абсолютно новый кошелек. Или добавьте уже существующий</string>
-    <string name="onboarding__create_btn_label">Создать кошелек</string>
-    <string name="onboarding__import_btn_label">Импортировать кошелек</string>
 
     <!-- Send coins -->
     <string name="send_coins__title">Bitcoin</string>
@@ -86,6 +110,7 @@
     <string name="quick_actions__buy">Купить</string>
     <string name="quick_actions__get">Получить</string>
     <string name="quick_actions__send">Отправить</string>
+    <string name="quick_actions__give">Отдать</string>
     <string name="quick_actions__exchange">Обменять</string>
 
     <!--  Exchange coins -->
@@ -100,9 +125,5 @@
     <!--  Exchange info -->
     <string name="exchange_info__title">BTC/DOT</string>
     <string name="exchange_info__oper_type">обмен</string>
-    <string name="exchange_info__give">Отдать</string>
-    <string name="exchange_info__get">Получить</string>
     <string name="exchange_info__get_coin">DOT</string>
-    <string name="exchange_info__ex_btn">Обменять</string>
-
 </resources>

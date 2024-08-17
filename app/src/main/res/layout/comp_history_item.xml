@@ -28,7 +28,7 @@
             android:gravity="end"
             android:layout_gravity="center">
             <TextView
-                style="@style/Body"
+                style="@style/Body_LineSpace"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/history__table_content_date"

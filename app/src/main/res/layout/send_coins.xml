@@ -54,14 +54,14 @@
         <LinearLayout style="@style/LayoutTransInfoItem"
             android:layout_marginTop="12dp">
             <TextView
-                style="@style/Body"
+                style="@style/Body_LineSpace"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
                 android:layout_weight="1"
                 android:text="@string/send_coins__item_operation_type_label" />
             <TextView
-                style="@style/Body"
+                style="@style/Body_LineSpace"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"

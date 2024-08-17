@@ -10,7 +10,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/Body"
+            style="@style/Body_LineSpace"
             android:text="@string/exchange__inp_give_coin"
             android:layout_marginBottom="4dp"/>
         <EditText

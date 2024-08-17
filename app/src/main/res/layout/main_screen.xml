@@ -100,7 +100,7 @@
                         android:paddingHorizontal="8dp"
                         android:textSize="12sp"
                         android:lineSpacingExtra="16dp"
-                        android:background="@drawable/shape_action_icon_wrapper"
+                        android:background="@drawable/shape_darkgreen_rounded12"
                         android:letterSpacing="0.005"
                         android:layout_marginStart="40dp"
                         android:gravity="end"
@@ -133,7 +133,7 @@
                 android:paddingHorizontal="7.5dp"
                 android:paddingVertical="13dp"
                 android:layout_marginEnd="12dp"
-                android:background="@drawable/shape_action_icon_wrapper"
+                android:background="@drawable/shape_darkgreen_rounded12"
                 android:gravity="center"
                 android:translationZ="100dp">
                 <ImageView
@@ -160,7 +160,7 @@
                 android:orientation="vertical"
                 android:paddingHorizontal="7.5dp"
                 android:paddingVertical="13dp"
-                android:background="@drawable/shape_action_icon_wrapper"
+                android:background="@drawable/shape_darkgreen_rounded12"
                 android:gravity="center"
                 android:layout_marginEnd="12dp"
                 android:translationZ="100dp">
@@ -188,7 +188,7 @@
                 android:orientation="vertical"
                 android:paddingHorizontal="7.5dp"
                 android:paddingVertical="13dp"
-                android:background="@drawable/shape_action_icon_wrapper"
+                android:background="@drawable/shape_darkgreen_rounded12"
                 android:gravity="center"
                 android:translationZ="100dp">
                 <ImageView
