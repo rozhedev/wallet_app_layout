@@ -80,6 +80,20 @@
     <string name="create_seed__copy_btn">Скопировать</string>
     <string name="create_seed__notice">В целях безопасности никому не передавайте вашу Seed-фразу.</string>
 
+    <!-- Enter password -->
+    <string name="enter_pass__title">Введите пароль</string>
+    <string name="enter_pass__notice">Этот пароль добавляет дополнительный уровень \n безопасности</string>
+    <string name="enter_pass__num1">1</string>
+    <string name="enter_pass__num2">2</string>
+    <string name="enter_pass__num3">3</string>
+    <string name="enter_pass__num4">4</string>
+    <string name="enter_pass__num5">5</string>
+    <string name="enter_pass__num6">6</string>
+    <string name="enter_pass__num7">7</string>
+    <string name="enter_pass__num8">8</string>
+    <string name="enter_pass__num9">9</string>
+    <string name="enter_pass__num0">0</string>
+
     <!-- Transaction info -->
     <string name="trans_info__title">О транзакции</string>
     <string name="trans_info__item_send_from_label">Откуда отправлена</string>
