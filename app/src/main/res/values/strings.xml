@@ -53,6 +53,18 @@
 
     <!-- Create seed -->
     <string name="create_seed__title">Seed-фраза</string>
+    <string name="create_seed__num1">1. </string>
+    <string name="create_seed__num2">2. </string>
+    <string name="create_seed__num3">3. </string>
+    <string name="create_seed__num4">4. </string>
+    <string name="create_seed__num5">5. </string>
+    <string name="create_seed__num6">6. </string>
+    <string name="create_seed__num7">7. </string>
+    <string name="create_seed__num8">8. </string>
+    <string name="create_seed__num9">9. </string>
+    <string name="create_seed__num10">10. </string>
+    <string name="create_seed__num11">11. </string>
+    <string name="create_seed__num12">12. </string>
     <string name="create_seed__item1">art</string>
     <string name="create_seed__item2">bottle</string>
     <string name="create_seed__item3">pillow</string>
