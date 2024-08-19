@@ -20,7 +20,7 @@
             android:textColor="@color/dark_theme_white"
             android:paddingHorizontal="12dp"
             android:paddingVertical="16dp"
-            android:textSize=" 14sp"
+            android:textSize="14sp"
             android:textColorHint="@color/dark_theme_gray"
             android:hint="@string/exchange__inp_select"
             android:autofillHints=""
