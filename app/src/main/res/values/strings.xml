@@ -6,6 +6,7 @@
     <string name="img_text__ic_send">icon send</string>
     <string name="img_text__ic_exchange">icon exchange</string>
     <string name="img_text__shape_rounded_divider">shape rounded divider</string>
+    <string name="img_text__ic_close">icon close</string>
 
     <!--  Quick actions  -->
     <string name="quick_actions__buy">Купить</string>
@@ -161,6 +162,16 @@
     <string name="main_popup__title">Добро пожаловать!</string>
     <string name="main_popup__content">Теперь вы можете управлять своими \n криптовалютами быстро и безопасно. \n Приступим!</string>
     <string name="main_popup__btn">Готово</string>
+
+    <!-- Settings popup  -->
+    <string name="popup_set_currency__title">Установите валюту</string>
+    <string name="popup_set_lang__title">Установите системный язык</string>
+    <string name="popup_set_currency__inp">Выбрать из списка</string>
+    <string name="popup_set_currency__btn">Подтвердить</string>
+    <string name="popup_set_exit__title">Выйти из кошелька?</string>
+    <string name="popup_set_exit__descr">Вы уверенны что хотите выйти из приложения?</string>
+    <string name="popup_set_exit__cancel">Отмена</string>
+    <string name="popup_set_exit__proceed">Выйти</string>
 
     <!--  Coin dashboard  -->
     <string name="coin_dash__list_title">Список транзакций</string>
