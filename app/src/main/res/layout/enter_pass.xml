@@ -41,11 +41,11 @@
                     android:inputType="number"
                     tools:ignore="LabelFor"/>
             </FrameLayout>
-            <include layout="@layout/enter_pass_inp"/>
-            <include layout="@layout/enter_pass_inp"/>
-            <include layout="@layout/enter_pass_inp"/>
-            <include layout="@layout/enter_pass_inp"/>
-            <include layout="@layout/enter_pass_inp"/>
+            <include layout="@layout/comp_enter_pass_inp"/>
+            <include layout="@layout/comp_enter_pass_inp"/>
+            <include layout="@layout/comp_enter_pass_inp"/>
+            <include layout="@layout/comp_enter_pass_inp"/>
+            <include layout="@layout/comp_enter_pass_inp"/>
         </LinearLayout>
         <TextView
             style="@style/BodySmall"

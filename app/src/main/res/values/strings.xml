@@ -156,6 +156,22 @@
     <string name="main_balance_btc__fiat_currency">USD</string>
     <string name="main_balance__btn">Добавить монеты</string>
 
+    <!-- Main popup   -->
+    <string name="main_popup__title">Добро пожаловать!</string>
+    <string name="main_popup__content">Теперь вы можете управлять своими \n криптовалютами быстро и безопасно. \n Приступим!</string>
+    <string name="main_popup__btn">Готово</string>
+
+    <!--  Coin dashboard  -->
+    <string name="coin_dash__list_title">Список транзакций</string>
+    <string name="coin_dash__list_filters">Фильтры</string>
+    <string name="coin_dash__item_title_buy">Покупка</string>
+    <string name="coin_dash__item_title_send">Отправка</string>
+    <string name="coin_dash__item_title_get">Получение</string>
+    <string name="coin_dash__item_title_exchange">Обмен</string>
+    <string name="coin_dash__item_to">To: </string>
+    <string name="coin_dash__item_recipient">bc1qm34lsc...3ewf0j77s3dk</string>
+    <string name="coin_dash__item_amount">0.56789123</string>
+
     <!--  Exchange coins -->
     <string name="exchange__title">Обмен монет</string>
     <string name="exchange__inp_give_coin">Монета, которую хотите отдать</string>

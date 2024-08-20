@@ -15,7 +15,7 @@
         android:layout_marginHorizontal="20dp"
         android:gravity="center_vertical"
         android:orientation="vertical"
-        android:padding="8dp"
+        android:paddingVertical="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -52,14 +52,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:paddingVertical="10dp">
+            android:paddingVertical="10dp"
+            android:gravity="center">
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/img_text__ic_arrow_back"
                 android:src="@drawable/ic_notifications"
-                android:layout_gravity="center"
                 />
             <Switch
                 android:layout_width="match_parent"
@@ -73,41 +72,47 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingVertical="10dp"
-            android:gravity="center"
-            android:layout_marginTop="4dp">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/img_text__ic_arrow_back"
-                android:src="@drawable/ic_wallet"
-                />
+            android:paddingVertical="8dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center">
             <LinearLayout
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/img_text__ic_arrow_back"
+                    android:src="@drawable/ic_wallet" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginHorizontal="12dp"
+                android:layout_marginStart="12dp"
                 >
+                <Switch
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/notifications_item__activity"
+                    android:textColor="@color/dark_theme_white"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/notifications_item__activity"
-                android:textColor="@color/dark_theme_white" />
-            <TextView
+                style="@style/BodySmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/notifications_item__activity_descr"
                 android:textColor="@color/dark_theme_gray"
-                android:textSize="12sp"
-                android:lineSpacingExtra="15.12dp"
                 />
+
             </LinearLayout>
-            <Switch
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:checked="true"
-                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
         </LinearLayout>
+        <!--    Switch    -->
         <LinearLayout
             android:id="@+id/layout_switch1"
             style="@style/SetBackgroundSwitch"

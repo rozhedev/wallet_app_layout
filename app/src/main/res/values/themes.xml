@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.Wallet_app" parent="android:Theme.Material.Light" />
+    <style name="Theme.Wallet_app" parent="android:Theme.Material.Light"/>
 
     <!--  Transaction Info Item  -->
     <style name="LayoutTransInfoItem">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:lineSpacingExtra">16.8sp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textSize">14sp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">horizontal</item>
@@ -85,6 +89,10 @@
     </style>
     <!-- Primary btn   -->
     <style name="PrimaryBtn" parent="Widget.AppCompat.Button">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:letterSpacing">-0.025</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:color">@color/dark_theme_white</item>
         <item name="android:background">@drawable/shape_primary_btn</item>
         <item name="android:text">@string/send_coins__send_btn_label</item>
         <item name="android:textColor">@color/dark_theme_black</item>
@@ -93,6 +101,10 @@
     </style>
     <!--  Disabled btn  -->
     <style name="DisabledBtn" parent="Widget.AppCompat.Button">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:letterSpacing">-0.025</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:color">@color/dark_theme_white</item>
         <item name="android:background">@drawable/shape_disabled_btn</item>
         <item name="android:text">@string/send_coins__send_btn_label</item>
         <item name="android:textColor">@color/dark_theme_black</item>
