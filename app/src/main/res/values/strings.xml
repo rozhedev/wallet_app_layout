@@ -168,9 +168,11 @@
     <string name="coin_dash__item_title_send">Отправка</string>
     <string name="coin_dash__item_title_get">Получение</string>
     <string name="coin_dash__item_title_exchange">Обмен</string>
-    <string name="coin_dash__item_to">To: </string>
+    <string name="coin_dash__item_to">Кошелёк:</string>
     <string name="coin_dash__item_recipient">bc1qm34lsc...3ewf0j77s3dk</string>
     <string name="coin_dash__item_amount">0.56789123</string>
+    <string name="coin_dash__item_amount_give">-5.56789123 ETH</string>
+    <string name="coin_dash__item_amount_get">+0.56789123 BTC</string>
 
     <!--  Exchange coins -->
     <string name="exchange__title">Обмен монет</string>

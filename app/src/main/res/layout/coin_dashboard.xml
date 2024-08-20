@@ -126,17 +126,14 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginHorizontal="20dp">
+
             <include layout="@layout/comp_quick_actions"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                >
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/container"
-                    android:orientation="horizontal">
+                android:id="@+id/container"
+                android:orientation="horizontal">
                     <TextView
                         style="@style/Body"
                         android:fontFamily="@font/roboto_medium"
@@ -165,24 +162,22 @@
                             android:text="@string/coin_dash__list_filters"
                             />
                     </LinearLayout>
-                </LinearLayout>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_marginTop="8dp"
                 android:background="@color/dark_theme_divider"/>
-            <LinearLayout
+            <include layout="@layout/comp_coin_trans_item"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="12dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </LinearLayout>
-            </LinearLayout>
+                android:layout_marginTop="12dp"/>
+            <include layout="@layout/comp_coin_trans_item" />
+            <include layout="@layout/comp_coin_trans_item__exchange" />
+            <include layout="@layout/comp_coin_trans_item" />
+            <include layout="@layout/comp_coin_trans_item__exchange" />
+            <include layout="@layout/comp_coin_trans_item" />
+            <include layout="@layout/comp_coin_trans_item__exchange" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
