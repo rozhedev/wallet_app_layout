@@ -8,4 +8,5 @@
     <color name="dark_theme_divider">#3F3F3F</color>
     <color name="dark_theme_gray">#8C8C8C</color>
     <color name="dark_theme_white">#FEFEFE</color>
+    <color name="dark_theme_lightgray">#CECECE</color>
 </resources>

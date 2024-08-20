@@ -13,44 +13,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="8dp"
-        android:layout_marginHorizontal="20dp"
-        >
-        <LinearLayout
+        android:layout_marginHorizontal="20dp">
+        <include layout="@layout/comp_search_box"/>
+        <include layout="@layout/comp_trans_filters_header"/>
+        <include layout="@layout/comp_coin_trans_item"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/history__table_header_type"
-                android:textColor="@color/dark_theme_gray"
-                android:textSize="14sp"
-                android:lineSpacingExtra="16.8sp"
-                android:textAlignment="textStart"
-                android:layout_weight="1"
-                />
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/history__table_header_date"
-                android:textColor="@color/dark_theme_gray"
-                android:textSize="14sp"
-                android:lineSpacingExtra="16.8sp"
-                android:textAlignment="textEnd"
-                android:layout_weight="1"
-                />
-        </LinearLayout>
-        <LinearLayout
-            style="@style/Divider"
-            android:layout_marginTop="16dp"/>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="16dp"
-            android:orientation="vertical"
-            app:layout_constraintTop_toTopOf="@+id/constraintLayout">
-
-            <include layout="@layout/comp_history_item"/>
-        </LinearLayout>
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"/>
+        <include layout="@layout/comp_coin_trans_item" />
+        <include layout="@layout/comp_coin_trans_item__exchange" />
+        <include layout="@layout/comp_coin_trans_item" />
+        <include layout="@layout/comp_coin_trans_item__exchange" />
+        <include layout="@layout/comp_coin_trans_item" />
+        <include layout="@layout/comp_coin_trans_item__exchange" />
     </LinearLayout>
 </LinearLayout>

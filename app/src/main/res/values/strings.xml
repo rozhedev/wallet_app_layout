@@ -127,6 +127,7 @@
     <string name="history__table_content_send">Отправка</string>
     <string name="history__table_content_receive">Получение</string>
     <string name="history__table_content_date">14.07.2024</string>
+    <string name="history__search_hint">Поиск...</string>
 
     <!--  Staking info  -->
     <string name="staking_info__title">Об операции</string>
