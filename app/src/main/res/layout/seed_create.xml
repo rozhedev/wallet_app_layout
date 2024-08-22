@@ -12,12 +12,10 @@
         android:orientation="vertical"
         android:layout_marginHorizontal="20dp">
         <androidx.constraintlayout.widget.ConstraintLayout
+            style="@style/AppHeaderAlign"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
             android:layout_marginTop="4dp"
-            android:paddingVertical="8dp"
-            android:gravity="center_vertical"
             android:orientation="vertical">
 
             <ImageButton

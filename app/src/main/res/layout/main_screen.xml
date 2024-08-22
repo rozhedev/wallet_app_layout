@@ -7,9 +7,9 @@
         android:orientation="vertical"
         android:background="@color/dark_theme_green">
         <LinearLayout
+            style="@style/AppHeaderAlign"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:background="@drawable/shape_upper_background"
             android:paddingTop="4dp"
             android:paddingBottom="18dp">

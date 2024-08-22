@@ -8,14 +8,11 @@
     android:background="@color/dark_theme_black">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/AppHeaderAlign"
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
         android:layout_marginHorizontal="20dp"
-        android:gravity="center_vertical"
-        android:orientation="vertical"
-        android:paddingVertical="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -34,7 +31,6 @@
             style="@style/AppTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:layout_gravity="center_horizontal"
             android:text="@string/notifications__title"
             android:textColor="@color/dark_theme_white"
@@ -58,8 +54,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/img_text__ic_arrow_back"
-                android:src="@drawable/ic_notifications"
-                />
+                android:src="@drawable/ic_notifications" />
             <Switch
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -106,9 +101,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/notifications_item__activity_descr"
-                android:textColor="@color/dark_theme_gray"
-                />
-
+                android:textColor="@color/dark_theme_gray" />
             </LinearLayout>
 
         </LinearLayout>
@@ -122,7 +115,8 @@
             android:paddingBottom="2dp"
             android:gravity="start"
             android:layout_height="33dp"
-            android:layout_marginTop="16dp">
+            android:layout_marginTop="16dp"
+            tools:ignore="RtlSymmetry">
 
             <com.google.android.material.switchmaterial.SwitchMaterial
                 android:id="@+id/themesSwitch"

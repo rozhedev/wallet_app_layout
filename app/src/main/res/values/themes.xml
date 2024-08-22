@@ -19,6 +19,12 @@
         <item name="android:background">@drawable/shape_darkgreen_rounded12</item>
         <item name="android:padding">12dp</item>
     </style>
+    <style name="AppHeaderAlign">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
     <!-- Heading 1 -->
     <style name="Heading1" parent="Widget.AppCompat.TextView">
         <item name="android:fontFamily">@font/roboto_medium</item>
@@ -182,7 +188,7 @@
         <item name="android:paddingBottom">12dp</item>
     </style>
 
-        <!-- Switch   -->
+    <!-- Switch   -->
     <style name="Theme.BitcoinJ"  parent="Theme.MaterialComponents.DayNight.DarkActionBar" >
         <item name="colorPrimary">@color/dark_theme_white</item>
         <item name="colorPrimaryDark">@color/dark_theme_white</item>

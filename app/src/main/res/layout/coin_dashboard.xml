@@ -12,14 +12,11 @@
         android:background="@drawable/shape_upper_background"
         android:orientation="vertical">
     <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/AppHeaderAlign"
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
         android:layout_marginHorizontal="20dp"
-        android:gravity="center_vertical"
-        android:orientation="vertical"
-        android:paddingVertical="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">

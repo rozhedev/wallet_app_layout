@@ -8,13 +8,10 @@
     android:background="@color/dark_theme_black"
     >
     <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/AppHeaderAlign"
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        android:gravity="center_vertical"
-        android:orientation="vertical"
-        android:paddingVertical="8dp"
         android:layout_marginHorizontal="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

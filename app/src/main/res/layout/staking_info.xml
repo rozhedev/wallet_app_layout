@@ -8,14 +8,12 @@
     android:background="@color/dark_theme_black"
     >
     <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/AppHeaderAlign"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="4dp"
-        android:paddingVertical="8dp"
-        android:gravity="center_vertical"
-        android:orientation="vertical">
+        android:paddingVertical="8dp">
 
         <ImageButton
             style="@style/HeaderActionIconLeft"
@@ -26,8 +24,7 @@
             android:src="@drawable/ic_arrow_back"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            />
+            app:layout_constraintTop_toTopOf="parent" />
         <TextView
             style="@style/AppTitle"
             android:layout_width="wrap_content"
@@ -56,8 +53,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:layout_marginBottom="28dp"
-            android:gravity="bottom"
-            >
+            android:gravity="bottom">
             <Button
                 style="@style/PrimaryBtn"
                 android:layout_width="match_parent"

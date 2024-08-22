@@ -5,16 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/dark_theme_black"
-    >
+    android:background="@color/dark_theme_black">
     <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/AppHeaderAlign"
+        android:layout_marginHorizontal="20dp"
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        android:gravity="center_vertical"
-        android:orientation="vertical"
-        android:padding="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -94,13 +91,13 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_marginBottom="28dp"
+        android:layout_marginHorizontal="20dp"
         android:gravity="bottom"
         >
         <Button
             style="@style/PrimaryBtn"
             android:layout_width="match_parent"
             android:layout_height="44dp"
-            android:layout_marginHorizontal="20dp"
             android:text="@string/quick_actions__exchange" />
     </LinearLayout>
 </LinearLayout>
