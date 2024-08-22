@@ -14,11 +14,12 @@
             <EditText
                 style="@style/Body"
                 android:id="@+id/create_seed__item1"
+                android:textSize="21sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="none"
                 android:autofillHints=""
-                android:padding="8dp"
+                android:padding="18dp"
                 android:background="@color/dark_theme_black"
                 android:textColor="@color/dark_theme_white"
                 android:visibility="gone"
@@ -26,10 +27,12 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingBottom="6dp"
+                android:paddingBottom="13.5dp"
                 >
                 <TextView
                     style="@style/Body_LineSpace"
+                    android:textSize="21sp"
+                    android:lineSpacingExtra="25dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/create_seed__num1"
@@ -39,9 +42,10 @@
                     style="@style/Body"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingHorizontal="8dp"
-                    android:paddingVertical="3dp"
-                    android:layout_marginStart="10dp"
+                    android:textSize="21sp"
+                    android:paddingHorizontal="12dp"
+                    android:paddingVertical="5dp"
+                    android:layout_marginStart="15dp"
                     android:background="@drawable/shape_darkgreen_rounded6"
                     android:text="@string/create_seed__item1"
                     android:textColor="@color/dark_theme_white"
@@ -51,7 +55,7 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="1.5dp"
             android:background="@color/dark_theme_divider"
             />
     </LinearLayout>

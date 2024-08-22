@@ -7,6 +7,8 @@
     <string name="img_text__ic_exchange">icon exchange</string>
     <string name="img_text__shape_rounded_divider">shape rounded divider</string>
     <string name="img_text__ic_close">icon close</string>
+    <string name="img_text__ic_fingerprint">icon fingerprint</string>
+    <string name="img_text__ic_backspace">icon backspace</string>
 
     <!--  Quick actions  -->
     <string name="quick_actions__buy">Купить</string>
