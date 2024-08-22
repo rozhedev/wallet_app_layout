@@ -27,7 +27,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/img_text__ic_arrow_back"
-            android:src="@drawable/ic_arrow_back"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -51,8 +50,7 @@
         android:layout_marginHorizontal="20dp"
         android:orientation="vertical"
         android:paddingTop="4dp"
-        android:paddingBottom="18dp"
-        >
+        android:paddingBottom="18dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -60,15 +58,13 @@
             android:text="@string/main_balance__title"
             android:textColor="@color/dark_theme_gray"
             android:textSize="14sp"
-            android:lineSpacingExtra="16.8dp"
-            />
+            android:lineSpacingExtra="16.8dp" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginTop="4dp"
-            android:gravity="center"
-            >
+            android:gravity="center">
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="0.7"
@@ -91,19 +87,14 @@
                     android:src="@drawable/coin_btc_rounded"
                     android:minWidth="20dp"
                     android:minHeight="20dp"
-                    android:contentDescription="@color/dark_theme_gray"
-                    />
+                    android:contentDescription="@color/dark_theme_gray" />
                 <TextView
+                    style="@style/Caption"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/roboto_bold"
                     android:text="@string/send_coins__item_coin_value"
                     android:textColor="@color/dark_theme_white"
-                    android:textSize="12sp"
-                    android:lineSpacingExtra="16dp"
-                    android:letterSpacing="0.005"
-                    android:layout_marginStart="6dp"
-                    />
+                    android:layout_marginStart="6dp" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

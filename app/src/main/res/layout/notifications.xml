@@ -23,7 +23,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/img_text__ic_arrow_back"
-            android:src="@drawable/ic_arrow_back"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -110,11 +109,11 @@
             android:id="@+id/layout_switch1"
             style="@style/SetBackgroundSwitch"
             android:layout_width="55dp"
+            android:layout_height="33dp"
             android:paddingEnd="3dp"
             android:paddingTop="2dp"
             android:paddingBottom="2dp"
             android:gravity="start"
-            android:layout_height="33dp"
             android:layout_marginTop="16dp"
             tools:ignore="RtlSymmetry">
 
