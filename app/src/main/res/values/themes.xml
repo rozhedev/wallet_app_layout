@@ -134,7 +134,7 @@
     </style>
 
     <!--  Items screens  -->
-    <style name="CreateWalletItem">
+    <style name="CreateWalletItemLayout">
         <item name="android:layout_width">308dp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">vertical</item>

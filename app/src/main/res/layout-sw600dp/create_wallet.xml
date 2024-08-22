@@ -18,9 +18,7 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:background="@drawable/shape_upper_background"
-                android:paddingBottom="14dp"
-
-                >
+                android:paddingBottom="14dp">
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/constraintLayout"
                     android:layout_width="match_parent"
@@ -91,7 +89,7 @@
                         android:orientation="horizontal"
                         android:layout_marginTop="20dp"
                         >
-                        <LinearLayout style="@style/CreateWalletItem"
+                        <LinearLayout style="@style/CreateWalletItemLayout"
                             android:layout_width="400dp"
                             android:minHeight="295dp"
                             android:layout_marginEnd="18dp">
@@ -118,7 +116,7 @@
                                 android:text="@string/create_wallet__about_item_descr1"
                                 android:textColor="@color/dark_theme_white"/>
                         </LinearLayout>
-                        <LinearLayout style="@style/CreateWalletItem"
+                        <LinearLayout style="@style/CreateWalletItemLayout"
                             android:layout_width="400dp"
                             android:minHeight="295dp"
                             android:layout_marginEnd="18dp">
@@ -147,7 +145,7 @@
                                 android:text="@string/create_wallet__about_item_descr2"
                                 />
                         </LinearLayout>
-                        <LinearLayout style="@style/CreateWalletItem"
+                        <LinearLayout style="@style/CreateWalletItemLayout"
                             android:layout_width="400dp"
                             android:minHeight="295dp">
                             <ImageView

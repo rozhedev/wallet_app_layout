@@ -78,66 +78,9 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:layout_marginTop="20dp">
-                        <LinearLayout style="@style/CreateWalletItem">
-                            <ImageView
-                                style="@style/CreateWalletItemImg"
-                                android:src="@drawable/img_repeat_success"
-                                android:contentDescription="@string/create_wallet__about_item_imgDescr1"/>
-                            <TextView
-                                style="@style/Heading3"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="16dp"
-                                android:text="@string/create_wallet__about_item_title1"
-                                android:textColor="@color/dark_theme_white"/>
-                            <TextView
-                                style="@style/BodySmall"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="8dp"
-                                android:text="@string/create_wallet__about_item_descr1"
-                                android:textColor="@color/dark_theme_white"/>
-                        </LinearLayout>
-                        <LinearLayout style="@style/CreateWalletItem">
-                            <ImageView
-                                style="@style/CreateWalletItemImg"
-                                android:src="@drawable/img_safety"
-                                android:contentDescription="@string/create_wallet__about_item_imgDescr2"/>
-                            <TextView
-                                style="@style/Heading3"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="16dp"
-                                android:textColor="@color/dark_theme_white"
-                                android:text="@string/create_wallet__about_item_title2" />
-                            <TextView
-                                style="@style/BodySmall"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="8dp"
-                                android:textColor="@color/dark_theme_white"
-                                android:text="@string/create_wallet__about_item_descr2" />
-                        </LinearLayout>
-                        <LinearLayout style="@style/CreateWalletItem">
-                            <ImageView
-                                style="@style/CreateWalletItemImg"
-                                android:src="@drawable/img_search_control"
-                                android:contentDescription="@string/create_wallet__about_item_imgDescr3"/>
-                            <TextView
-                                style="@style/Heading3"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="16dp"
-                                android:textColor="@color/dark_theme_white"
-                                android:text="@string/create_wallet__about_item_title3" />
-                            <TextView
-                                style="@style/BodySmall"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="8dp"
-                                android:textColor="@color/dark_theme_white"
-                                android:text="@string/create_wallet__about_item_descr3" />
-                        </LinearLayout>
+                        <include layout="@layout/comp_create_wallet_item"/>
+                        <include layout="@layout/comp_create_wallet_item"/>
+                        <include layout="@layout/comp_create_wallet_item"/>
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -155,6 +98,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:minHeight="340dp"
             android:background="@drawable/shape_lower_background"
             android:layout_marginTop="2dp">
             <LinearLayout
@@ -211,7 +155,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:minHeight="80dp"
+
                     android:layout_marginBottom="28dp"
                     android:gravity="bottom">
                     <Button
