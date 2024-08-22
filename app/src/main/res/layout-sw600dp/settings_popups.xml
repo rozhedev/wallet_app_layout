@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_theme_black">
+
+    <!--  Select currency popup  -->
+    <LinearLayout
+        style="@style/PopupContainer"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include layout="@layout/comp_popup_close"/>
+        <TextView
+            style="@style/Heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/popup_set_currency__title"
+            android:textAlignment="center"
+            android:textColor="@color/dark_theme_white"
+            android:layout_marginTop="12dp" />
+
+        <include layout="@layout/comp_select_list"/>
+        <!-- Change label to "Подтвердить"  -->
+        <Button
+            style="@style/PrimaryBtn"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="44dp" />
+    </LinearLayout>
+
+    <!--  Select language popup-->
+<!--    <LinearLayout-->
+<!--        style="@style/PopupContainer"-->
+<!--        android:layout_width="320dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <include layout="@layout/comp_popup_close"/>-->
+<!--        <TextView-->
+<!--            style="@style/Heading3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/popup_set_lang__title"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/dark_theme_white"-->
+<!--            android:layout_marginTop="12dp" />-->
+
+<!--        <include layout="@layout/comp_select_list"/>-->
+<!--        &lt;!&ndash; Change label to "Подтвердить"  &ndash;&gt;-->
+<!--        <Button-->
+<!--            style="@style/PrimaryBtn"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="44dp" />-->
+<!--    </LinearLayout>-->
+
+        <!-- Exit popup   -->
+<!--    <LinearLayout-->
+<!--        style="@style/PopupContainer"-->
+<!--        android:layout_width="320dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:paddingHorizontal="24dp"-->
+<!--        android:paddingTop="24dp">-->
+
+<!--        <TextView-->
+<!--            style="@style/Heading3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/popup_set_exit__title"-->
+<!--            android:textColor="@color/dark_theme_white"/>-->
+<!--        <TextView-->
+<!--            style="@style/Body"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/popup_set_exit__descr"-->
+<!--            android:textColor="@color/dark_theme_gray"-->
+<!--            android:layout_marginTop="12dp" />-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="end">-->
+<!--            <LinearLayout-->
+<!--                style="@style/BtnBehavior"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@color/dark_theme_dark_green"-->
+<!--                android:layout_marginTop="16dp">-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="@string/popup_set_exit__cancel"-->
+<!--                    android:textColor="@color/dark_theme_white"/>-->
+<!--            </LinearLayout>-->
+<!--            <LinearLayout-->
+<!--                style="@style/BtnBehavior"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@color/dark_theme_dark_green"-->
+<!--                android:layout_marginTop="16dp">-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="@string/popup_set_exit__proceed"-->
+<!--                    android:textColor="@color/dark_theme_white"/>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

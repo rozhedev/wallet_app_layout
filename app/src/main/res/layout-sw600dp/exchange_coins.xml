@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_theme_black"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/AppHeaderAlign"
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            style="@style/HeaderActionIconLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/img_text__ic_arrow_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            style="@style/AppTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/exchange__title"
+            android:textColor="@color/dark_theme_white"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageButton" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include layout="@layout/comp_select_inp" android:id="@+id/exchange_select_inp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Body_LineSpace"
+            android:text="@string/exchange__inp_coin_count"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/shape_ghost_inp"
+            android:textColor="@color/dark_theme_white"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="16dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Body_LineSpace"
+            android:text="@string/exchange__validation_err"
+            android:textColorHint="@color/dark_theme_gray"
+            android:hint="@string/exchange__inp_select"
+            android:textSize="10sp"
+            android:textColor="@color/dark_theme_green"
+            android:layout_marginBottom="4dp"
+            tools:ignore="SmallSp"/>
+    </LinearLayout>
+
+    <include layout="@layout/comp_select_inp" android:id="@+id/select_inp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="28dp"
+        android:gravity="bottom"
+        >
+        <Button
+            style="@style/DisabledBtn"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginHorizontal="20dp"
+            />
+    </LinearLayout>
+</LinearLayout>
