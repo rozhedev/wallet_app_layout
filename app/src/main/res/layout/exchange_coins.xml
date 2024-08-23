@@ -32,14 +32,13 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="@string/exchange__title"
-            android:textColor="@color/dark_theme_white"
             app:layout_constraintBottom_toBottomOf="@+id/imageButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/imageButton" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <include layout="@layout/comp_select_inp" android:id="@+id/exchange_select_inp"/>
+    <include layout="@layout/comp_tabl_select_inp" android:id="@+id/exchange_select_inp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -75,7 +74,7 @@
             tools:ignore="SmallSp"/>
     </LinearLayout>
 
-    <include layout="@layout/comp_select_inp" android:id="@+id/select_inp"/>
+    <include layout="@layout/comp_tabl_select_inp" android:id="@+id/select_inp"/>
 
     <LinearLayout
         android:layout_width="match_parent"

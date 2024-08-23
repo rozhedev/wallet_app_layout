@@ -36,7 +36,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="@string/send_coins__title"
-            android:textColor="@color/dark_theme_white"
             app:layout_constraintBottom_toBottomOf="@+id/imageButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -110,18 +109,18 @@
             android:orientation="vertical"
             android:layout_marginHorizontal="20dp">
 
-            <include layout="@layout/comp_quick_actions"/>
-            <include layout="@layout/comp_trans_filters_header"/>
-            <include layout="@layout/comp_coin_trans_item"
+            <include layout="@layout/comp_tabl_quick_actions"/>
+            <include layout="@layout/comp_tabl_trans_filters_header"/>
+            <include layout="@layout/comp_tabl_coin_trans_item"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"/>
-            <include layout="@layout/comp_coin_trans_item" />
-            <include layout="@layout/comp_coin_trans_item__exchange" />
-            <include layout="@layout/comp_coin_trans_item" />
-            <include layout="@layout/comp_coin_trans_item__exchange" />
-            <include layout="@layout/comp_coin_trans_item" />
-            <include layout="@layout/comp_coin_trans_item__exchange" />
+            <include layout="@layout/comp_tabl_coin_trans_item" />
+            <include layout="@layout/comp_tabl_coin_trans_item__exchange" />
+            <include layout="@layout/comp_tabl_coin_trans_item" />
+            <include layout="@layout/comp_tabl_coin_trans_item__exchange" />
+            <include layout="@layout/comp_tabl_coin_trans_item" />
+            <include layout="@layout/comp_tabl_coin_trans_item__exchange" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

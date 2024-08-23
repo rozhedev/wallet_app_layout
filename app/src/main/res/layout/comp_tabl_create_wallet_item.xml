@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/CreateWalletItemLayout">
+        <ImageView
+            style="@style/CreateWalletItemImg"
+            android:src="@drawable/img_repeat_success"
+            android:contentDescription="@string/create_wallet__about_item_imgDescr1"/>
+        <TextView
+            style="@style/Heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/create_wallet__about_item_title1" />
+        <TextView
+            style="@style/BodySmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/create_wallet__about_item_descr1"
+            android:textColor="@color/dark_theme_white"/>
+    </LinearLayout>
+</layout>

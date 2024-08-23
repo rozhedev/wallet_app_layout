@@ -17,8 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="80dp"
             android:layout_marginBottom="20dp"
-            android:text="@string/enter_pass__title"
-            android:textColor="@color/dark_theme_white" />
+            android:text="@string/enter_pass__title"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -27,8 +26,7 @@
             <FrameLayout
                 android:layout_width="36dp"
                 android:layout_height="40dp"
-                android:background="@drawable/shape_enter_num_inp"
-                >
+                android:background="@drawable/shape_enter_num_inp">
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -41,11 +39,11 @@
                     android:inputType="number"
                     tools:ignore="LabelFor"/>
             </FrameLayout>
-            <include layout="@layout/comp_enter_pass_inp"/>
-            <include layout="@layout/comp_enter_pass_inp"/>
-            <include layout="@layout/comp_enter_pass_inp"/>
-            <include layout="@layout/comp_enter_pass_inp"/>
-            <include layout="@layout/comp_enter_pass_inp"/>
+            <include layout="@layout/comp_tabl_enter_pass_inp"/>
+            <include layout="@layout/comp_tabl_enter_pass_inp"/>
+            <include layout="@layout/comp_tabl_enter_pass_inp"/>
+            <include layout="@layout/comp_tabl_enter_pass_inp"/>
+            <include layout="@layout/comp_tabl_enter_pass_inp"/>
         </LinearLayout>
         <TextView
             style="@style/BodySmall"

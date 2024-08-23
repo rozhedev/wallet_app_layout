@@ -4,118 +4,118 @@
     <style name="Theme.Wallet_app" parent="android:Theme.Material.Light"/>
 
     <!--  Transaction Info Item  -->
-    <style name="LayoutTransInfoItem">
+    <style name="LayoutTransInfoItem__Tablet">
         <item name="android:fontFamily">@font/roboto_regular</item>
-        <item name="android:lineSpacingExtra">16.8sp</item>
+        <item name="android:lineSpacingExtra">25.2sp</item>
         <item name="android:textAlignment">textStart</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">21sp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">horizontal</item>
         <item name="android:textColor">@color/dark_theme_white</item>
     </style>
     <!-- UI Appearance -->
-    <style name="HeaderActionIconLeft">
+    <style name="HeaderActionIconLeft__Tablet">
         <item name="android:background">@drawable/shape_darkgreen_rounded12</item>
-        <item name="android:padding">12dp</item>
+        <item name="android:padding">16dp</item>
         <item name="android:src">@drawable/ic_arrow_back</item>
     </style>
-    <style name="AppHeaderAlign">
+    <style name="AppHeaderAlign__Tablet">
         <item name="android:gravity">center_vertical</item>
         <item name="android:orientation">vertical</item>
-        <item name="android:paddingTop">8dp</item>
-        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
     </style>
     <!-- Heading 1 -->
-    <style name="Heading1" parent="Widget.AppCompat.TextView">
+    <style name="Heading1__Tablet" parent="Widget.AppCompat.TextView">
         <item name="android:fontFamily">@font/roboto_medium</item>
-        <item name="android:textSize">22sp</item>
+        <item name="android:textSize">33sp</item>
         <item name="android:textColor">@color/dark_theme_white</item>
     </style>
     <!-- Heading 2 -->
-    <style name="Heading2" parent="Widget.AppCompat.TextView">
+    <style name="Heading2__Tablet" parent="Widget.AppCompat.TextView">
         <item name="android:fontFamily">@font/roboto_medium</item>
-        <item name="android:textSize">19sp</item>
+        <item name="android:textSize">28.5sp</item>
         <item name="android:textColor">@color/dark_theme_white</item>
     </style>
     <!-- Heading3 (Bold text, text Appearance for App Title) -->
-    <style name="AppTitle" parent="Widget.AppCompat.TextView">
+    <style name="AppTitle__Tablet" parent="Widget.AppCompat.TextView">
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:letterSpacing">-0.025</item>
-        <item name="android:lineSpacingExtra">18.75sp</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">28.8dp</item>
+        <item name="android:textSize">24sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/dark_theme_white</item>
     </style>
     <!-- Heading3 -->
-    <style name="Heading3" parent="Widget.AppCompat.TextView">
+    <style name="Heading3__Tablet" parent="Widget.AppCompat.TextView">
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:letterSpacing">-0.025</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">24sp</item>
         <item name="android:textColor">@color/dark_theme_white</item>
     </style>
 
     <!--  Body  -->
-    <style name="Body_LineSpace" parent="Widget.AppCompat.TextView">
+    <style name="Body_LineSpace__Tablet" parent="Widget.AppCompat.TextView">
         <item name="android:fontFamily">@font/roboto_regular</item>
-        <item name="android:lineSpacingExtra">16.8sp</item>
+        <item name="android:lineSpacingExtra">25.2dp</item>
         <item name="android:textAlignment">textStart</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">21sp</item>
         <item name="android:textColor">@color/dark_theme_white</item>
     </style>
-    <style name="Body" parent="Widget.AppCompat.TextView">
+    <style name="Body__Tablet" parent="Widget.AppCompat.TextView">
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textAlignment">textStart</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">21sp</item>
         <item name="android:textColor">@color/dark_theme_white</item>
     </style>
     <!--  Body small  -->
-    <style name="BodySmall" parent="Widget.AppCompat.TextView">
+    <style name="BodySmall__Tablet" parent="Widget.AppCompat.TextView">
         <item name="android:fontFamily">@font/roboto_regular</item>
-        <item name="android:textSize">12sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:textColor">@color/dark_theme_white</item>
     </style>
     <!--  Caption  -->
-    <style name="Caption" parent="Widget.AppCompat.TextView">
+    <style name="Caption__Tablet" parent="Widget.AppCompat.TextView">
         <item name="android:fontFamily">@font/roboto_medium</item>
         <item name="android:letterSpacing">0.005</item>
-        <item name="android:lineSpacingExtra">16dp</item>
-        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">24dp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:textColor">@color/dark_theme_white</item>
     </style>
     <!--  CaptionSmall  -->
-    <style name="CaptionSmall" parent="Widget.AppCompat.TextView">
+    <style name="CaptionSmall__Tablet" parent="Widget.AppCompat.TextView">
         <item name="android:fontFamily">@font/roboto_regular</item>
-        <item name="android:textSize">10sp</item>
+        <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/dark_theme_gray</item>
     </style>
 
     <!--  Divider  -->
-    <style name="Divider">
+    <style name="Divider__Tablet">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_height">1.5dp</item>
         <item name="android:background">@color/dark_theme_divider</item>
     </style>
 
     <!-- Button Appearance -->
     <!-- Ghost btn   -->
-    <style name="GhostBtn" parent="Widget.AppCompat.Button">
-        <item name="android:paddingStart">16dp</item>
-        <item name="android:paddingEnd">16dp</item>
-        <item name="android:paddingTop">12dp</item>
-        <item name="android:paddingBottom">12dp</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:lineSpacingExtra">18.75sp</item>
+    <style name="GhostBtn__Tablet" parent="Widget.AppCompat.Button">
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">28.8sp</item>
         <item name="android:letterSpacing">-0.025</item>
         <item name="android:textColor">@color/dark_theme_white</item>
         <item name="android:background">@drawable/shape_ghost_btn</item>
         <item name="android:textAllCaps">false</item>
     </style>
     <!-- Primary btn   -->
-    <style name="PrimaryBtn" parent="Widget.AppCompat.Button">
+    <style name="PrimaryBtn__Tablet" parent="Widget.AppCompat.Button">
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:letterSpacing">-0.025</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">24sp</item>
         <item name="android:color">@color/dark_theme_white</item>
         <item name="android:background">@drawable/shape_primary_btn</item>
         <item name="android:text">@string/send_coins__send_btn_label</item>
@@ -124,10 +124,10 @@
         <item name="android:textAllCaps">false</item>
     </style>
     <!--  Disabled btn  -->
-    <style name="DisabledBtn" parent="Widget.AppCompat.Button">
+    <style name="DisabledBtn__Tablet" parent="Widget.AppCompat.Button">
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:letterSpacing">-0.025</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">24sp</item>
         <item name="android:color">@color/dark_theme_white</item>
         <item name="android:background">@drawable/shape_disabled_btn</item>
         <item name="android:text">@string/send_coins__send_btn_label</item>
@@ -137,63 +137,64 @@
     </style>
 
     <!--  Items screens  -->
-    <style name="CreateWalletItemLayout">
-        <item name="android:layout_width">308dp</item>
+    <style name="CreateWalletItemLayout__Tablet">
+        <item name="android:layout_width">400dp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">vertical</item>
         <item name="android:padding">16dp</item>
-        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginRight">18dp</item>
+        <item name="android:minHeight">295dp</item>
         <item name="android:background">@drawable/shape_darkgreen_rounded12</item>
     </style>
-    <style name="CreateWalletItemImg">
+    <style name="CreateWalletItemImg__Tablet">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:maxWidth">52dp</item>
-        <item name="android:maxHeight">52dp</item>
+        <item name="android:maxWidth">76dp</item>
+        <item name="android:maxHeight">76dp</item>
     </style>
 
-    <style name="SliderDot_Active">
-        <item name="android:layout_width">8dp</item>
-        <item name="android:layout_height">8dp</item>
+    <style name="SliderDot_Active__Tablet">
+        <item name="android:layout_width">12dp</item>
+        <item name="android:layout_height">12dp</item>
         <item name="android:background">@drawable/shape_slider_dot_active</item>
     </style>
-    <style name="SliderDot">
-        <item name="android:layout_width">8dp</item>
-        <item name="android:layout_height">8dp</item>
-        <item name="android:layout_marginStart">4dp</item>
+    <style name="SliderDot__Tablet">
+        <item name="android:layout_width">12dp</item>
+        <item name="android:layout_height">12dp</item>
+        <item name="android:layout_marginStart">6dp</item>
         <item name="android:background">@drawable/shape_slider_dot</item>
     </style>
 
     <!-- Button behavior -->
-    <style name="BtnBehavior" parent="Widget.AppCompat.Button">
+    <style name="BtnBehavior__Tablet" parent="Widget.AppCompat.Button">
         <item name="android:layout_weight">0.33</item>
         <item name="android:padding">0dp</item>
         <item name="android:background">@color/dark_theme_black</item>
     </style>
 
-    <style name="BtnAppPassNumber">
+    <style name="BtnAppPassNumber__Tablet">
         <item name="android:textColor">@color/dark_theme_white</item>
-        <item name="android:textSize">28sp</item>
-        <item name="android:paddingHorizontal" tools:targetApi="o">9dp</item>
-        <item name="android:paddingVertical" tools:targetApi="o">3dp</item>
-        <item name="android:lineSpacingExtra">39dp</item>
+        <item name="android:textSize">42sp</item>
+        <item name="android:paddingHorizontal" tools:targetApi="o">13.5dp</item>
+        <item name="android:paddingVertical" tools:targetApi="o">4.5dp</item>
+        <item name="android:lineSpacingExtra">88.5sp</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <!-- Popup styles -->
-    <style name="PopupContainer">
-        <item name="android:layout_marginStart">20dp</item>
-        <item name="android:layout_marginEnd">20dp</item>
+    <style name="PopupContainer__Tablet">
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
         <item name="android:background">@drawable/shape_darkgreen_rounded18</item>
         <item name="android:orientation">vertical</item>
-        <item name="android:paddingStart">16dp</item>
-        <item name="android:paddingEnd">16dp</item>
-        <item name="android:paddingTop">12dp</item>
-        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
     </style>
 
     <!-- Switch   -->
-    <style name="Theme.BitcoinJ"  parent="Theme.MaterialComponents.DayNight.DarkActionBar" >
+    <style name="Theme.BitcoinJ" parent="Theme.MaterialComponents.DayNight.DarkActionBar" >
         <item name="colorPrimary">@color/dark_theme_white</item>
         <item name="colorPrimaryDark">@color/dark_theme_white</item>
         <item name="colorAccent">@color/dark_theme_white</item>

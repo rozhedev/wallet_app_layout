@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/shape_ghost_inp__darkgreen"
+        android:textColor="@color/dark_theme_white"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="16dp"
+        android:textSize="14sp"
+        android:textColorHint="@color/dark_theme_gray"
+        android:drawableEnd="@drawable/ic_arrow_down"
+        android:drawablePadding="20dp"
+        android:hint="@string/exchange__inp_select"
+        android:autofillHints=""
+        android:inputType=""/>
+</layout>

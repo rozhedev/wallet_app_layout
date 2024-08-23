@@ -39,7 +39,6 @@
                 android:textSize="24sp"
                 android:layout_gravity="center_horizontal"
                 android:text="@string/create_seed__title"
-                android:textColor="@color/dark_theme_white"
                 app:layout_constraintBottom_toBottomOf="@+id/imageButton"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -57,12 +56,12 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginEnd="12dp">
-                <include layout="@layout/comp_create_seed__item__tablet"/>
-                <include layout="@layout/comp_create_seed__item__tablet"/>
-                <include layout="@layout/comp_create_seed__item__tablet"/>
-                <include layout="@layout/comp_create_seed__item__tablet"/>
-                <include layout="@layout/comp_create_seed__item__tablet"/>
-                <include layout="@layout/comp_create_seed__item__tablet"/>
+                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
+                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
+                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
+                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
+                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
+                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="0dp"
@@ -70,12 +69,12 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginStart="12dp">
-                <include layout="@layout/comp_create_seed__item__tablet"/>
-                <include layout="@layout/comp_create_seed__item__tablet"/>
-                <include layout="@layout/comp_create_seed__item__tablet"/>
-                <include layout="@layout/comp_create_seed__item__tablet"/>
-                <include layout="@layout/comp_create_seed__item__tablet"/>
-                <include layout="@layout/comp_create_seed__item__tablet"/>
+                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
+                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
+                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
+                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
+                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
+                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
@@ -97,8 +96,7 @@
                 android:textSize="24sp"
                 android:text="@string/create_seed__copy_btn"
                 android:layout_marginHorizontal="12dp"
-                android:textColor="@color/dark_theme_green"
-                />
+                android:textColor="@color/dark_theme_green" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"

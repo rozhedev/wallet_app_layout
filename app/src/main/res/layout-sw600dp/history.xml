@@ -7,24 +7,24 @@
     android:orientation="vertical"
     android:background="@color/dark_theme_black"
     >
-    <include layout="@layout/comp_primary_header" android:id="@+id/primary_heading"/>
+    <include layout="@layout/comp_tabl_primary_header" android:id="@+id/primary_heading"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginHorizontal="20dp">
-        <include layout="@layout/comp_search_box"/>
-        <include layout="@layout/comp_trans_filters_header"/>
-        <include layout="@layout/comp_coin_trans_item"
+        <include layout="@layout/comp_tabl_search_box"/>
+        <include layout="@layout/comp_tabl_trans_filters_header"/>
+        <include layout="@layout/comp_tabl_coin_trans_item"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"/>
-        <include layout="@layout/comp_coin_trans_item" />
-        <include layout="@layout/comp_coin_trans_item__exchange" />
-        <include layout="@layout/comp_coin_trans_item" />
-        <include layout="@layout/comp_coin_trans_item__exchange" />
-        <include layout="@layout/comp_coin_trans_item" />
-        <include layout="@layout/comp_coin_trans_item__exchange" />
+        <include layout="@layout/comp_tabl_coin_trans_item" />
+        <include layout="@layout/comp_tabl_coin_trans_item__exchange" />
+        <include layout="@layout/comp_tabl_coin_trans_item" />
+        <include layout="@layout/comp_tabl_coin_trans_item__exchange" />
+        <include layout="@layout/comp_tabl_coin_trans_item" />
+        <include layout="@layout/comp_tabl_coin_trans_item__exchange" />
     </LinearLayout>
 </LinearLayout>

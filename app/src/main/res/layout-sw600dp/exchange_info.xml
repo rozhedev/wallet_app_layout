@@ -31,7 +31,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="@string/exchange__title"
-            android:textColor="@color/dark_theme_white"
             app:layout_constraintBottom_toBottomOf="@+id/imageButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -64,8 +63,8 @@
                 android:textAlignment="textEnd"
                 android:textColor="@color/dark_theme_green"/>
         </LinearLayout>
-        <include layout="@layout/comp_status_info_item__coin" android:id="@+id/status_info_item__coin"/>
-        <include layout="@layout/comp_status_info_item__coin" android:id="@+id/status_info_item__coin"/>
+        <include layout="@layout/comp_tabl_status_info_item__coin" android:id="@+id/status_info_item__coin"/>
+        <include layout="@layout/comp_tabl_status_info_item__coin" android:id="@+id/status_info_item__coin"/>
 
         <LinearLayout
             style="@style/Divider"
@@ -79,7 +78,7 @@
             android:layout_marginTop="16dp"
             >
             <!-- Checkbox checked -->
-            <include layout="@layout/comp_checkbox_checked" android:id="@+id/checkbox_checked"/>
+            <include layout="@layout/comp_tabl_checkbox_checked" android:id="@+id/checkbox_checked"/>
             <!-- Checkbox unchecked -->
 <!--            <include layout="@layout/checkbox_normal" android:id="@+id/checkbox_normal"/>-->
         </LinearLayout>

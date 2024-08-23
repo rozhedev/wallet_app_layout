@@ -14,7 +14,7 @@
             android:paddingTop="4dp"
             android:paddingBottom="18dp">
             <!--  Header  -->
-            <include layout="@layout/comp_main_screen_header"/>
+            <include layout="@layout/comp_tabl_main_screen_header"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -82,7 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
             android:orientation="vertical">
-        <include layout="@layout/comp_quick_actions"/>
+        <include layout="@layout/comp_tabl_quick_actions"/>
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -91,18 +91,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-                <include layout="@layout/comp_main_balance_item"
+                <include layout="@layout/comp_tabl_main_balance_item"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
-                <include layout="@layout/comp_main_balance_item"
+                <include layout="@layout/comp_tabl_main_balance_item"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"/>
-                <include layout="@layout/comp_main_balance_item"
+                <include layout="@layout/comp_tabl_main_balance_item"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"/>
-                <include layout="@layout/comp_main_balance_item"
+                <include layout="@layout/comp_tabl_main_balance_item"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"/>

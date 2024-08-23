@@ -1,0 +1,29 @@
+<!-- res/layout/select_inp.xml -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Body_LineSpace"
+            android:text="@string/exchange__inp_give_coin"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/shape_ghost_inp"
+            android:textColor="@color/dark_theme_white"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="16dp"
+            android:textSize="14sp"
+            android:textColorHint="@color/dark_theme_gray"
+            android:hint="@string/exchange__inp_select"
+            android:autofillHints=""
+            android:inputType=""/>
+    </LinearLayout>
+</layout>
