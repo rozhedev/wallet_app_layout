@@ -24,7 +24,7 @@
                     android:id="@+id/constraintLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginHorizontal="@dimen/contMargin"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
@@ -38,7 +38,6 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
-
                     <TextView
                         style="@style/AppTitle"
                         android:layout_width="wrap_content"
@@ -55,7 +54,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_marginTop="16dp"
-                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginHorizontal="@dimen/contMargin"
                     android:gravity="center">
                     <TextView
                         style="@style/Heading2"
@@ -74,9 +73,9 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:layout_marginTop="20dp">
-                        <include layout="@layout/comp_tabl_create_wallet_item"/>
-                        <include layout="@layout/comp_tabl_create_wallet_item"/>
-                        <include layout="@layout/comp_tabl_create_wallet_item"/>
+                        <include layout="@layout/comp_create_wallet_item"/>
+                        <include layout="@layout/comp_create_wallet_item"/>
+                        <include layout="@layout/comp_create_wallet_item"/>
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -106,7 +105,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginHorizontal="@dimen/contMargin"
                     android:background="@drawable/shape_darkgreen_rounded12"
                     android:padding="16dp">
                     <TextView
@@ -122,7 +121,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_margin="20dp">
+                    android:layout_margin="@dimen/contMargin">
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -147,13 +146,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:layout_marginBottom="28dp"
+                    android:layout_marginBottom="@dimen/bottomContMargin"
                     android:gravity="bottom">
                     <Button
                         style="@style/PrimaryBtn"
                         android:layout_width="match_parent"
-                        android:layout_height="44dp"
-                        android:layout_marginHorizontal="20dp"
+                        android:layout_height="@dimen/btnNormalHeight"
+                        android:layout_marginHorizontal="@dimen/contMargin"
                         android:text="@string/onboarding__create_btn_label" />
                 </LinearLayout>
             </LinearLayout>

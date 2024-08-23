@@ -16,7 +16,7 @@
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
+        android:layout_marginHorizontal="@dimen/contMargin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -45,7 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginHorizontal="20dp"
+        android:layout_marginHorizontal="@dimen/contMargin"
         android:orientation="vertical"
         android:paddingTop="4dp"
         android:paddingBottom="18dp">
@@ -107,20 +107,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginHorizontal="20dp">
+            android:layout_marginHorizontal="@dimen/contMargin">
 
-            <include layout="@layout/comp_tabl_quick_actions"/>
-            <include layout="@layout/comp_tabl_trans_filters_header"/>
-            <include layout="@layout/comp_tabl_coin_trans_item"
+            <include layout="@layout/comp_quick_actions"/>
+            <include layout="@layout/comp_trans_filters_header"/>
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"/>
-            <include layout="@layout/comp_tabl_coin_trans_item" />
-            <include layout="@layout/comp_tabl_coin_trans_item__exchange" />
-            <include layout="@layout/comp_tabl_coin_trans_item" />
-            <include layout="@layout/comp_tabl_coin_trans_item__exchange" />
-            <include layout="@layout/comp_tabl_coin_trans_item" />
-            <include layout="@layout/comp_tabl_coin_trans_item__exchange" />
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="4dp">
+                    <include layout="@layout/comp_coin_trans_item" />
+                    <include layout="@layout/comp_coin_trans_item" />
+                    <include layout="@layout/comp_coin_trans_item__exchange" />
+                    <include layout="@layout/comp_coin_trans_item" />
+                    <include layout="@layout/comp_coin_trans_item__exchange" />
+                    <include layout="@layout/comp_coin_trans_item" />
+                    <include layout="@layout/comp_coin_trans_item__exchange" />
+                </LinearLayout>
+            </ScrollView>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

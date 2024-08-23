@@ -43,11 +43,11 @@
         android:layout_marginHorizontal="20dp"
         android:orientation="vertical">
 
-        <include layout="@layout/comp_tabl_status_info_item"/>
-        <include layout="@layout/comp_tabl_status_info_item"/>
-        <include layout="@layout/comp_tabl_status_info_item__coin"/>
-        <include layout="@layout/comp_tabl_status_info_item"/>
-        <include layout="@layout/comp_tabl_status_info_item"/>
+        <include layout="@layout/comp_status_info_item"/>
+        <include layout="@layout/comp_status_info_item"/>
+        <include layout="@layout/comp_status_info_item__coin"/>
+        <include layout="@layout/comp_status_info_item"/>
+        <include layout="@layout/comp_status_info_item"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"

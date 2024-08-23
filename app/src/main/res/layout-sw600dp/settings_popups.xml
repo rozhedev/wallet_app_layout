@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <include layout="@layout/comp_tabl_popup_close"/>
+        <include layout="@layout/comp_popup_close"/>
         <TextView
             style="@style/Heading3"
             android:layout_width="match_parent"
@@ -24,7 +24,7 @@
             android:textAlignment="center"
             android:layout_marginTop="12dp" />
 
-        <include layout="@layout/comp_tabl_select_list"/>
+        <include layout="@layout/comp_select_list"/>
         <!-- Change label to "Подтвердить"  -->
         <Button
             style="@style/PrimaryBtn"

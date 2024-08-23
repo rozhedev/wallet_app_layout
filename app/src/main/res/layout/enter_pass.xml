@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginHorizontal="20dp"
+        android:layout_marginHorizontal="@dimen/contMargin"
         android:gravity="center">
         <TextView
             style="@style/Heading3"
@@ -39,11 +39,11 @@
                     android:inputType="number"
                     tools:ignore="LabelFor"/>
             </FrameLayout>
-            <include layout="@layout/comp_tabl_enter_pass_inp"/>
-            <include layout="@layout/comp_tabl_enter_pass_inp"/>
-            <include layout="@layout/comp_tabl_enter_pass_inp"/>
-            <include layout="@layout/comp_tabl_enter_pass_inp"/>
-            <include layout="@layout/comp_tabl_enter_pass_inp"/>
+            <include layout="@layout/comp_enter_pass_inp"/>
+            <include layout="@layout/comp_enter_pass_inp"/>
+            <include layout="@layout/comp_enter_pass_inp"/>
+            <include layout="@layout/comp_enter_pass_inp"/>
+            <include layout="@layout/comp_enter_pass_inp"/>
         </LinearLayout>
         <TextView
             style="@style/BodySmall"

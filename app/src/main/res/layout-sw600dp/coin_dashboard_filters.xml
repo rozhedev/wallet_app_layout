@@ -16,14 +16,14 @@
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
+        android:layout_marginHorizontal="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
             android:id="@+id/imageButton"
-            style="@style/HeaderActionIconLeft"
+            style="@style/HeaderActionIconLeft__Tablet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/img_text__ic_arrow_back"
@@ -32,7 +32,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            style="@style/AppTitle"
+            style="@style/AppTitle__Tablet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -45,24 +45,23 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="30dp"
         android:orientation="vertical"
-        android:paddingTop="4dp"
-        android:paddingBottom="18dp">
+        android:paddingTop="6dp"
+        android:paddingBottom="27dp">
         <TextView
+            style="@style/Body_LineSpace__Tablet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto_medium"
             android:text="@string/main_balance__title"
-            android:textColor="@color/dark_theme_gray"
-            android:textSize="14sp"
-            android:lineSpacingExtra="16.8dp" />
+            android:textColor="@color/dark_theme_gray" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="6dp"
             android:gravity="center">
             <TextView
                 android:layout_width="0dp"
@@ -71,29 +70,29 @@
                 android:fontFamily="@font/roboto_bold"
                 android:text="@string/main_balance__value"
                 android:textColor="@color/dark_theme_white"
-                android:textSize="32sp" />
+                android:textSize="48sp" />
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:paddingHorizontal="8dp"
-                android:paddingVertical="4dp"
-                android:layout_marginStart="20dp"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="6dp"
+                android:layout_marginStart="30dp"
                 android:background="@drawable/shape_darkgreen_rounded6">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/coin_btc_rounded"
-                    android:minWidth="20dp"
-                    android:minHeight="20dp"
+                    android:minWidth="32dp"
+                    android:minHeight="32dp"
                     android:contentDescription="@color/dark_theme_gray" />
                 <TextView
-                    style="@style/Caption"
+                    style="@style/Caption__Tablet"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/send_coins__item_coin_value"
                     android:textColor="@color/dark_theme_white"
-                    android:layout_marginStart="6dp" />
+                    android:layout_marginStart="9dp" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
@@ -101,89 +100,26 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="3dp"
         android:background="@drawable/shape_lower_background"
         android:orientation="vertical"
-        android:paddingTop="18dp"
-        android:paddingBottom="4dp">
+        android:paddingTop="27dp"
+        android:paddingBottom="6dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginHorizontal="20dp">
+            android:layout_marginHorizontal="30dp">
 
-            <include layout="@layout/comp_tabl_quick_actions"/>
-            <include layout="@layout/comp_tabl_trans_filters_header"/>
-            <include layout="@layout/comp_tabl_filter_item"
+            <include layout="@layout/comp_quick_actions"/>
+            <include layout="@layout/comp_trans_filters_header__close"/>
+            <include layout="@layout/comp_filter_item"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"/>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingVertical="10dp">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/coin_dash__item_title_buy"
-                    android:src="@drawable/ic_add_circle_white"
-                    android:layout_gravity="center"
-                    android:id="@+id/icon_add"/>
-                <TextView
-                    style="@style/LayoutTransInfoItem"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:text="@string/coin_dash__item_title_buy"
-                    android:layout_marginStart="8dp"
-                    android:layout_weight="1"
-                    android:layout_gravity="center"
-                    android:id="@+id/label_add"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingVertical="10dp">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/img_text__ic_arrow_back"
-                    android:src="@drawable/ic_send"
-                    android:layout_gravity="center"
-                    android:id="@+id/icon_send"/>
-                <TextView
-                    style="@style/LayoutTransInfoItem"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:text="@string/history__table_content_send"
-                    android:layout_marginStart="8dp"
-                    android:layout_weight="1"
-                    android:layout_gravity="center"
-                    android:id="@+id/label_send"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingVertical="10dp">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/history__table_content_receive"
-                    android:src="@drawable/ic_receive"
-                    android:layout_gravity="center"
-                    android:id="@+id/icon_get"/>
-                <TextView
-                    style="@style/LayoutTransInfoItem"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:text="@string/coin_dash__item_title_get"
-                    android:layout_marginStart="8dp"
-                    android:layout_weight="1"
-                    android:layout_gravity="center"
-                    android:id="@+id/label_get"/>
-            </LinearLayout>
+            <include layout="@layout/comp_filter_item"/>
+            <include layout="@layout/comp_filter_item"/>
+            <include layout="@layout/comp_filter_item"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

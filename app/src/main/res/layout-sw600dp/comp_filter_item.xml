@@ -4,20 +4,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingVertical="10dp">
+        android:paddingVertical="15dp">
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
             android:contentDescription="@string/history__table_content_exchange"
             android:src="@drawable/ic_exchange"
             android:layout_gravity="center"
             android:id="@+id/icon"/>
         <TextView
-            style="@style/LayoutTransInfoItem"
+            style="@style/LayoutTransInfoItem__Tablet"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/history__table_content_exchange"
-            android:layout_marginStart="8dp"
+            android:layout_marginStart="12dp"
             android:layout_weight="1"
             android:layout_gravity="center"
             android:id="@+id/label"/>

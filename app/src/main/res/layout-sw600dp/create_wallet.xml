@@ -18,16 +18,16 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:background="@drawable/shape_upper_background"
-                android:paddingBottom="14dp">
+                android:paddingBottom="21dp">
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/constraintLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginHorizontal="40dp"
+                    android:layout_marginHorizontal="@dimen/contMargin"
                     android:gravity="center_vertical"
                     android:orientation="vertical"
-                    android:paddingVertical="8dp"
+                    android:paddingVertical="12dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
@@ -44,9 +44,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
                     <TextView
-                        style="@style/AppTitle"
-                        android:textSize="24sp"
-                        android:lineSpacingExtra="28.5dp"
+                        style="@style/AppTitle__Tablet"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
 
@@ -62,7 +60,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_marginTop="16dp"
-                    android:layout_marginHorizontal="40dp"
+                    android:layout_marginHorizontal="30dp"
                     android:gravity="center"
                     >
                     <TextView
@@ -201,7 +199,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginHorizontal="40dp"
+                    android:layout_marginHorizontal="30dp"
                     android:background="@drawable/shape_darkgreen_rounded12"
                     android:padding="20dp">
                     <TextView
@@ -218,7 +216,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginHorizontal="40dp"
+                    android:layout_marginHorizontal="30dp"
                     android:layout_marginVertical="42dp">
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -252,7 +250,7 @@
                         style="@style/PrimaryBtn"
                         android:layout_width="match_parent"
                         android:layout_height="66dp"
-                        android:layout_marginHorizontal="40dp"
+                        android:layout_marginHorizontal="30dp"
                         android:text="@string/onboarding__create_btn_label"
                         android:textSize="24sp"/>
                 </LinearLayout>

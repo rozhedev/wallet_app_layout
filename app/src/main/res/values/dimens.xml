@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margins from horizontal edge of device -->
+    <dimen name="contMargin">20dp</dimen>
+    <dimen name="contMarginTablet">30dp</dimen>
+
+    <!-- Margin from bottom edge of device. Use for buttons -->
+    <dimen name="bottomContMargin">28dp</dimen>
+
+    <!-- Buttons sizes -->
+    <dimen name="btnNormalHeight">44dp</dimen>
+</resources>

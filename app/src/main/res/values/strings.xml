@@ -177,7 +177,9 @@
 
     <!--  Coin dashboard  -->
     <string name="coin_dash__list_title">Список транзакций</string>
+    <string name="coin_dash__list_sort_by">Сортировать по:</string>
     <string name="coin_dash__list_filters">Фильтры</string>
+    <string name="coin_dash__list_filters_close">Закрыть</string>
     <string name="coin_dash__item_title_buy">Покупка</string>
     <string name="coin_dash__item_title_send">Отправка</string>
     <string name="coin_dash__item_title_get">Получение</string>
