@@ -7,8 +7,8 @@
     android:orientation="vertical"
     android:background="@color/dark_theme_black">
     <androidx.constraintlayout.widget.ConstraintLayout
-        style="@style/AppHeaderAlign"
-        android:layout_marginHorizontal="20dp"
+        style="@style/AppHeaderAlign__Tablet"
+        android:layout_marginHorizontal="@dimen/contMarginTablet"
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,12 +21,13 @@
             style="@style/HeaderActionIconLeft"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="16dp"
             android:contentDescription="@string/img_text__ic_arrow_back"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
         <TextView
-            style="@style/AppTitle"
+            style="@style/AppTitle__Tablet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -40,21 +41,21 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginHorizontal="@dimen/contMarginTablet"
+        android:layout_marginTop="6dp"
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="@+id/constraintLayout">
         <LinearLayout style="@style/LayoutTransInfoItem"
-            android:layout_marginTop="12dp">
+            android:layout_marginTop="18dp">
             <TextView
-                style="@style/Body_LineSpace"
+                style="@style/Body_LineSpace__Tablet"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
                 android:layout_weight="1"
                 android:text="@string/send_coins__item_operation_type_label" />
             <TextView
-                style="@style/Body_LineSpace"
+                style="@style/Body_LineSpace__Tablet"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
@@ -68,15 +69,15 @@
 
         <LinearLayout
             style="@style/Divider"
-            android:layout_marginTop="18dp"/>
+            android:layout_marginTop="27dp"/>
 
         <!-- Checkboxes -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="16dp"
-            >
+            android:layout_marginTop="24dp">
+
             <!-- Checkbox checked -->
             <include layout="@layout/comp_checkbox_checked" android:id="@+id/checkbox_checked"/>
             <!-- Checkbox unchecked -->
@@ -88,14 +89,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginBottom="28dp"
-        android:layout_marginHorizontal="20dp"
-        android:gravity="bottom"
-        >
+        android:layout_marginBottom="@dimen/bottomContMarginTablet"
+        android:layout_marginHorizontal="@dimen/contMargin"
+        android:gravity="bottom">
         <Button
-            style="@style/PrimaryBtn"
+            style="@style/PrimaryBtn__Tablet"
             android:layout_width="match_parent"
-            android:layout_height="44dp"
+            android:layout_height="@dimen/btnNormalHeightTablet"
             android:text="@string/quick_actions__exchange" />
     </LinearLayout>
 </LinearLayout>

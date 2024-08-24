@@ -9,16 +9,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginHorizontal="40dp"
+        android:layout_marginHorizontal="@dimen/contMarginTablet"
         android:gravity="center">
         <TextView
-            style="@style/Heading3"
+            style="@style/Heading3__Tablet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
             android:layout_marginBottom="20dp"
-            android:text="@string/enter_pass__title"
-            android:textSize="24dp"/>
+            android:text="@string/enter_pass__title" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,12 +47,11 @@
             <include layout="@layout/comp_tabl_enter_pass_inp__tablet"/>
         </LinearLayout>
         <TextView
-            style="@style/BodySmall"
+            style="@style/BodySmall__Tablet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
             android:text="@string/enter_pass__notice"
-            android:textSize="18sp"
             android:textColor="@color/dark_theme_gray"
             android:gravity="center"/>
         <LinearLayout
@@ -72,11 +70,9 @@
                 android:layout_height="wrap_content"
                 android:gravity="center|start">
                 <TextView
-                    style="@style/BtnAppPassNumber"
+                    style="@style/BtnAppPassNumber__Tablet"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="42sp"
-                    android:lineSpacingExtra="59sp"
                     android:text="@string/enter_pass__num1" />
             </LinearLayout>
             <LinearLayout
@@ -85,11 +81,9 @@
                 android:layout_height="wrap_content"
                 android:gravity="center">
                 <TextView
-                    style="@style/BtnAppPassNumber"
+                    style="@style/BtnAppPassNumber__Tablet"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="42sp"
-                    android:lineSpacingExtra="59sp"
                     android:text="@string/enter_pass__num2" />
             </LinearLayout>
             <LinearLayout
@@ -98,11 +92,9 @@
                 android:layout_height="wrap_content"
                 android:gravity="center|end">
                 <TextView
-                    style="@style/BtnAppPassNumber"
+                    style="@style/BtnAppPassNumber__Tablet"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="42sp"
-                    android:lineSpacingExtra="59sp"
                     android:text="@string/enter_pass__num3" />
             </LinearLayout>
         </LinearLayout>
@@ -117,11 +109,9 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|start">
                     <TextView
-                        style="@style/BtnAppPassNumber"
+                        style="@style/BtnAppPassNumber__Tablet"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="42sp"
-                        android:lineSpacingExtra="59sp"
                         android:text="@string/enter_pass__num4"/>
                 </LinearLayout>
                 <LinearLayout
@@ -130,11 +120,9 @@
                     android:layout_height="wrap_content"
                     android:gravity="center">
                     <TextView
-                        style="@style/BtnAppPassNumber"
+                        style="@style/BtnAppPassNumber__Tablet"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="42sp"
-                        android:lineSpacingExtra="59sp"
                         android:text="@string/enter_pass__num5" />
                 </LinearLayout>
                 <LinearLayout
@@ -162,11 +150,9 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|start">
                     <TextView
-                        style="@style/BtnAppPassNumber"
+                        style="@style/BtnAppPassNumber__Tablet"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="42sp"
-                        android:lineSpacingExtra="59sp"
                         android:text="@string/enter_pass__num7" />
                 </LinearLayout>
                 <LinearLayout
@@ -175,11 +161,9 @@
                     android:layout_height="wrap_content"
                     android:gravity="center">
                     <TextView
-                        style="@style/BtnAppPassNumber"
+                        style="@style/BtnAppPassNumber__Tablet"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="42sp"
-                        android:lineSpacingExtra="59sp"
                         android:text="@string/enter_pass__num8" />
                 </LinearLayout>
                 <LinearLayout
@@ -188,11 +172,9 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|end">
                     <TextView
-                        style="@style/BtnAppPassNumber"
+                        style="@style/BtnAppPassNumber__Tablet"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="42sp"
-                        android:lineSpacingExtra="59sp"
                         android:text="@string/enter_pass__num9" />
                 </LinearLayout>
             </LinearLayout>
@@ -217,11 +199,9 @@
                     android:layout_height="wrap_content"
                     android:gravity="center">
                     <TextView
-                        style="@style/BtnAppPassNumber"
+                        style="@style/BtnAppPassNumber__Tablet"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="42sp"
-                        android:lineSpacingExtra="59sp"
                         android:text="@string/enter_pass__num0" />
                 </LinearLayout>
                 <LinearLayout

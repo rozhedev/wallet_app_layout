@@ -6,6 +6,7 @@
 
     <!-- Margin from bottom edge of device. Use for buttons -->
     <dimen name="bottomContMargin">28dp</dimen>
+    <dimen name="bottomContMarginTablet">42dp</dimen>
 
     <!-- Icon sizes -->
     <dimen name="icSizeXs">20dp</dimen>
@@ -24,4 +25,5 @@
 
     <!-- Buttons sizes -->
     <dimen name="btnNormalHeight">44dp</dimen>
+    <dimen name="btnNormalHeightTablet">66dp</dimen>
 </resources>

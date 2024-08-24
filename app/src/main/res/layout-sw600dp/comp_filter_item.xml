@@ -6,8 +6,8 @@
         android:orientation="horizontal"
         android:paddingVertical="15dp">
         <ImageView
-            android:layout_width="36dp"
-            android:layout_height="36dp"
+            android:layout_width="@dimen/icSizeSmTablet"
+            android:layout_height="@dimen/icSizeSmTablet"
             android:contentDescription="@string/history__table_content_exchange"
             android:src="@drawable/ic_exchange"
             android:layout_gravity="center"

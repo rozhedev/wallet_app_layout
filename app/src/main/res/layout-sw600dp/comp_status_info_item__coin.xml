@@ -2,14 +2,13 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout style="@style/LayoutTransInfoItem" android:layout_marginTop="12dp">
     <TextView
-        style="@style/Body_LineSpace"
+        style="@style/Body_LineSpace__Tablet"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/send_coins__item_coin_label"
         android:textAlignment="textStart"
         android:layout_weight="1"
-        android:id="@+id/label"
-        />
+        android:id="@+id/label" />
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -17,21 +16,19 @@
         android:orientation="horizontal"
         android:gravity="end">
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/icSizeXsTablet"
+            android:layout_height="@dimen/icSizeXsTablet"
             android:background="@drawable/coin_btc_rounded"
             android:contentDescription="@string/content_descr__bitcoin_icon"
-            android:id="@+id/icon"
-            />
+            android:id="@+id/icon" />
         <TextView
-            style="@style/Body_LineSpace"
+            style="@style/Body_LineSpace__Tablet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/send_coins__item_coin_value"
             android:textAlignment="textEnd"
-            android:layout_marginStart="6dp"
-            android:id="@+id/value"
-            />
+            android:layout_marginStart="9dp"
+            android:id="@+id/value" />
     </LinearLayout>
     </LinearLayout>
 </layout>

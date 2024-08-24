@@ -177,7 +177,7 @@
         <item name="android:textSize">42sp</item>
         <item name="android:paddingHorizontal" tools:targetApi="o">13.5dp</item>
         <item name="android:paddingVertical" tools:targetApi="o">4.5dp</item>
-        <item name="android:lineSpacingExtra">88.5sp</item>
+        <item name="android:lineSpacingExtra">59dp</item>
         <item name="android:textStyle">bold</item>
     </style>
 

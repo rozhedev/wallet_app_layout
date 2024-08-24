@@ -15,14 +15,14 @@
                 android:gravity="center"
                 android:layout_height="wrap_content">
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/icSizeMd"
+                    android:layout_height="@dimen/icSizeMd"
                     android:background="@drawable/shape_icon_overlay_darkgreen"
                     android:gravity="center">
                     <ImageView
                         android:layout_width="@dimen/icSizeXs"
                         android:layout_height="@dimen/icSizeXs"
-                        android:src="@drawable/ic_add_circle_green"
+                        android:src="@drawable/ic_exchange_green"
                         android:contentDescription="@string/coin_dash__item_title_buy"/>
                 </LinearLayout>
                 <LinearLayout

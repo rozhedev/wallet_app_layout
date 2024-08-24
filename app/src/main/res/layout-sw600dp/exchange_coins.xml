@@ -8,11 +8,11 @@
     android:background="@color/dark_theme_black"
     >
     <androidx.constraintlayout.widget.ConstraintLayout
-        style="@style/AppHeaderAlign"
+        style="@style/AppHeaderAlign__Tablet"
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
+        android:layout_marginHorizontal="@dimen/contMarginTablet"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -23,11 +23,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/img_text__ic_arrow_back"
+            android:padding="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
         <TextView
-            style="@style/AppTitle"
+            style="@style/AppTitle__Tablet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -38,56 +39,56 @@
             app:layout_constraintTop_toTopOf="@+id/imageButton" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <include layout="@layout/comp_select_inp" android:id="@+id/exchange_select_inp"/>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="16dp"
         android:orientation="vertical"
-        >
-        <TextView
+        android:layout_marginHorizontal="@dimen/contMarginTablet">
+        <include layout="@layout/comp_select_inp" android:id="@+id/exchange_select_inp"/>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/Body_LineSpace"
-            android:text="@string/exchange__inp_coin_count"
-            android:layout_marginBottom="4dp"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="44dp"
-            android:background="@drawable/shape_ghost_inp"
-            android:textColor="@color/dark_theme_white"
-            android:paddingHorizontal="12dp"
-            android:paddingVertical="16dp"
-            />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/Body_LineSpace"
-            android:text="@string/exchange__validation_err"
-            android:textColorHint="@color/dark_theme_gray"
-            android:hint="@string/exchange__inp_select"
-            android:textSize="10sp"
-            android:textColor="@color/dark_theme_green"
-            android:layout_marginBottom="4dp"
-            tools:ignore="SmallSp"/>
+            android:layout_marginTop="24dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Body_LineSpace__Tablet"
+                android:text="@string/exchange__inp_coin_count"
+                android:layout_marginBottom="6dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btnNormalHeightTablet"
+                android:background="@drawable/shape_ghost_inp"
+                android:textColor="@color/dark_theme_white"
+                android:paddingHorizontal="18dp"
+                android:paddingVertical="24dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Body_LineSpace__Tablet"
+                android:text="@string/exchange__validation_err"
+                android:textColorHint="@color/dark_theme_gray"
+                android:hint="@string/exchange__inp_select"
+                android:textSize="15sp"
+                android:textColor="@color/dark_theme_green"
+                android:layout_marginBottom="6dp"
+                tools:ignore="SmallSp"/>
+        </LinearLayout>
+        <include layout="@layout/comp_select_inp" android:id="@+id/select_inp"/>
+
     </LinearLayout>
-
-    <include layout="@layout/comp_select_inp" android:id="@+id/select_inp"/>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginBottom="28dp"
-        android:gravity="bottom"
-        >
+        android:layout_marginBottom="@dimen/bottomContMarginTablet"
+        android:layout_marginHorizontal="@dimen/contMarginTablet"
+        android:gravity="bottom">
         <Button
-            style="@style/DisabledBtn"
+            style="@style/DisabledBtn__Tablet"
             android:layout_width="match_parent"
-            android:layout_height="44dp"
-            android:layout_marginHorizontal="20dp"
-            />
+            android:layout_height="@dimen/btnNormalHeightTablet" />
     </LinearLayout>
 </LinearLayout>
