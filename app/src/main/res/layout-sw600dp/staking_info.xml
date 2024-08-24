@@ -11,21 +11,22 @@
         style="@style/AppHeaderAlign"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="4dp"
-        android:paddingVertical="8dp">
+        android:layout_marginHorizontal="@dimen/contMarginTablet"
+        android:layout_marginTop="6dp"
+        android:paddingVertical="12dp">
 
         <ImageButton
             style="@style/HeaderActionIconLeft"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="16dp"
             android:id="@+id/imageButton"
             android:contentDescription="@string/img_text__ic_arrow_back"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
         <TextView
-            style="@style/AppTitle"
+            style="@style/AppTitle__Tablet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -39,8 +40,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="4dp"
-        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginHorizontal="@dimen/contMarginTablet"
         android:orientation="vertical">
 
         <include layout="@layout/comp_status_info_item"/>
@@ -50,12 +51,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_marginBottom="28dp"
+            android:layout_marginBottom="@dimen/bottomContMarginTablet"
             android:gravity="bottom">
             <Button
-                style="@style/PrimaryBtn"
+                style="@style/PrimaryBtn__Tablet"
                 android:layout_width="match_parent"
-                android:layout_height="44dp"
+                android:layout_height="@dimen/btnNormalHeightTablet"
                 android:text="@string/staking_info__check_btn_label"
                 android:layout_gravity="bottom" />
         </LinearLayout>

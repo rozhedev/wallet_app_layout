@@ -12,7 +12,7 @@
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
+        android:layout_marginHorizontal="@dimen/contMarginTablet"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -22,12 +22,13 @@
             style="@style/HeaderActionIconLeft"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="16dp"
             android:contentDescription="@string/img_text__ic_arrow_back"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
         <TextView
-            style="@style/AppTitle"
+            style="@style/AppTitle__Tablet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -40,33 +41,34 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="@dimen/contMarginTablet"
+        android:layout_marginTop="24dp"
         android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingVertical="10dp"
+            android:paddingVertical="15dp"
             android:gravity="center">
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="@dimen/icSizeSmTablet"
+                android:layout_height="@dimen/icSizeSmTablet"
                 android:contentDescription="@string/img_text__ic_arrow_back"
                 android:src="@drawable/ic_notifications" />
             <Switch
+                style="@style/Body__Tablet"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:checked="true"
                 android:text="@string/notifications_item__allow_notif"
                 android:textColor="@color/dark_theme_white"
-                android:layout_marginStart="12dp"
+                android:layout_marginStart="16dp"
                 tools:ignore="UseSwitchCompatOrMaterialXml" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingVertical="8dp"
-            android:layout_marginTop="4dp"
+            android:paddingVertical="12dp"
+            android:layout_marginTop="6dp"
             android:gravity="center">
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -75,8 +77,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/icSizeSmTablet"
+                    android:layout_height="@dimen/icSizeSmTablet"
                     android:contentDescription="@string/img_text__ic_arrow_back"
                     android:src="@drawable/ic_wallet" />
                 </LinearLayout>
@@ -85,9 +87,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginStart="12dp"
-                >
+                android:layout_marginStart="16dp">
                 <Switch
+                    style="@style/Body__Tablet"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:checked="true"
@@ -95,7 +97,7 @@
                     android:textColor="@color/dark_theme_white"
                     tools:ignore="UseSwitchCompatOrMaterialXml" />
             <TextView
-                style="@style/BodySmall"
+                style="@style/BodySmall__Tablet"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/notifications_item__activity_descr"

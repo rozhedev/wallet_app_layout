@@ -4,10 +4,10 @@
         style="@style/LayoutTransInfoItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="18dp"
         >
         <TextView
-            style="@style/Body_LineSpace"
+            style="@style/Body_LineSpace__Tablet"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/trans_info__item_send_from_label"
@@ -16,7 +16,7 @@
             android:id="@+id/label"
             />
         <TextView
-            style="@style/Body_LineSpace"
+            style="@style/Body_LineSpace__Tablet"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/trans_info__item_send_from_value"

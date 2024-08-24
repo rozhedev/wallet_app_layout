@@ -10,13 +10,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginHorizontal="40dp">
+        android:layout_marginHorizontal="@dimen/contMarginTablet">
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginTop="4dp"
-            android:paddingVertical="8dp"
+            android:layout_marginTop="6dp"
+            android:paddingVertical="12dp"
             android:gravity="center_vertical"
             android:orientation="vertical">
 
@@ -33,10 +33,9 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                style="@style/AppTitle"
+                style="@style/AppTitle__Tablet"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="24sp"
                 android:layout_gravity="center_horizontal"
                 android:text="@string/create_seed__title"
                 app:layout_constraintBottom_toBottomOf="@+id/imageButton"
@@ -48,14 +47,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="36dp"
             android:gravity="center">
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_weight="0.5"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginEnd="12dp">
+                android:layout_marginEnd="18dp">
                 <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
                 <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
                 <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
@@ -68,7 +67,7 @@
                 android:layout_weight="0.5"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginStart="12dp">
+                android:layout_marginStart="18dp">
                 <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
                 <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
                 <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
@@ -81,45 +80,41 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center|end"
-            android:layout_marginVertical="15dp"
-            android:paddingVertical="15dp"
+            android:layout_marginVertical="22dp"
+            android:paddingVertical="22dp"
             tools:ignore="UseCompoundDrawables">
             <ImageView
-                android:layout_width="36dp"
-                android:layout_height="36dp"
+                android:layout_width="@dimen/icSizeLgTablet"
+                android:layout_height="@dimen/icSizeLgTablet"
                 android:src="@drawable/ic_copy_to_clipboard_green"
                 android:contentDescription="@string/create_seed__copy_btn"/>
             <TextView
-                style="@style/Heading3"
+                style="@style/Heading3__Tablet"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="24sp"
                 android:text="@string/create_seed__copy_btn"
-                android:layout_marginHorizontal="12dp"
+                android:layout_marginHorizontal="18dp"
                 android:textColor="@color/dark_theme_green" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_marginBottom="42dp"
-            android:gravity="bottom"
-            >
+            android:layout_marginBottom="@dimen/bottomContMarginTablet"
+            android:gravity="bottom">
             <TextView
-                style="@style/BodySmall"
+                style="@style/BodySmall__Tablet"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
-                android:layout_marginBottom="24dp"
+                android:layout_marginBottom="36dp"
                 android:background="@drawable/shape_darkgreen_rounded12"
                 android:text="@string/create_seed__notice"
-                android:padding="24dp"
+                android:padding="36dp"
                 android:textColor="@color/dark_theme_white" />
             <Button
-                style="@style/PrimaryBtn"
+                style="@style/PrimaryBtn__Tablet"
                 android:layout_width="match_parent"
-                android:layout_height="66dp"
-                android:textSize="24sp"
+                android:layout_height="@dimen/btnNormalHeightTablet"
                 android:text="@string/onboarding__create_btn_label"
                 android:layout_gravity="bottom" />
         </LinearLayout>
