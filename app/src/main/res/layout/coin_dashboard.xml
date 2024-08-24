@@ -81,8 +81,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/coin_btc_rounded"
-                    android:minWidth="20dp"
-                    android:minHeight="20dp"
+                    android:minWidth="@dimen/icSizeXs"
+                    android:minHeight="@dimen/icSizeXs"
                     android:contentDescription="@color/dark_theme_gray" />
                 <TextView
                     style="@style/Caption"

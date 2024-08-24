@@ -20,8 +20,8 @@
                     android:background="@drawable/shape_icon_overlay_darkgreen"
                     android:gravity="center">
                     <ImageView
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
+                        android:layout_width="@dimen/icSizeXs"
+                        android:layout_height="@dimen/icSizeXs"
                         android:src="@drawable/ic_add_circle_green"
                         android:contentDescription="@string/coin_dash__item_title_buy"/>
                 </LinearLayout>

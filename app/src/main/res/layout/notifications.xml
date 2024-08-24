@@ -49,8 +49,8 @@
             android:paddingVertical="10dp"
             android:gravity="center">
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="@dimen/icSizeSm"
+                android:layout_height="@dimen/icSizeSm"
                 android:contentDescription="@string/img_text__ic_arrow_back"
                 android:src="@drawable/ic_notifications" />
             <Switch
@@ -72,8 +72,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/icSizeSm"
+                    android:layout_height="@dimen/icSizeSm"
                     android:contentDescription="@string/img_text__ic_arrow_back"
                     android:src="@drawable/ic_wallet" />
             </LinearLayout>

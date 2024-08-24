@@ -6,8 +6,8 @@
         android:orientation="horizontal"
         android:paddingVertical="10dp">
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/icSizeSm"
+            android:layout_height="@dimen/icSizeSm"
             android:contentDescription="@string/history__table_content_exchange"
             android:src="@drawable/ic_exchange"
             android:layout_gravity="center"

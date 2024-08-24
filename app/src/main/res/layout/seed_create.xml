@@ -79,8 +79,8 @@
             android:paddingVertical="10dp"
             tools:ignore="UseCompoundDrawables">
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="@dimen/icSizeSm"
+                android:layout_height="@dimen/icSizeSm"
                 android:src="@drawable/ic_copy_to_clipboard_green"
                 android:contentDescription="@string/create_seed__copy_btn"/>
             <TextView
@@ -96,7 +96,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_marginBottom="28dp"
+            android:layout_marginBottom="@dimen/bottomContMargin"
             android:gravity="bottom"
             >
             <TextView

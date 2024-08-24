@@ -88,7 +88,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="@dimen/bottomContMargin"
         android:layout_marginHorizontal="@dimen/contMargin"
         android:gravity="bottom"
         >

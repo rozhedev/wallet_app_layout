@@ -84,8 +84,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/coin_btc_rounded"
-                    android:minWidth="20dp"
-                    android:minHeight="20dp"
+                    android:minWidth="@dimen/icSizeXs"
+                    android:minHeight="@dimen/icSizeXs"
                     android:contentDescription="@color/dark_theme_gray" />
                 <TextView
                     style="@style/Caption"
@@ -124,8 +124,8 @@
                 android:orientation="horizontal"
                 android:paddingVertical="10dp">
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/icSizeSm"
+                    android:layout_height="@dimen/icSizeSm"
                     android:contentDescription="@string/coin_dash__item_title_buy"
                     android:src="@drawable/ic_add_circle_white"
                     android:layout_gravity="center"
@@ -146,8 +146,8 @@
                 android:orientation="horizontal"
                 android:paddingVertical="10dp">
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/icSizeSm"
+                    android:layout_height="@dimen/icSizeSm"
                     android:contentDescription="@string/img_text__ic_arrow_back"
                     android:src="@drawable/ic_send"
                     android:layout_gravity="center"
@@ -168,8 +168,8 @@
                 android:orientation="horizontal"
                 android:paddingVertical="10dp">
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/icSizeSm"
+                    android:layout_height="@dimen/icSizeSm"
                     android:contentDescription="@string/history__table_content_receive"
                     android:src="@drawable/ic_receive"
                     android:layout_gravity="center"

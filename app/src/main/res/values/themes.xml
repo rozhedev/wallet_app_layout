@@ -148,8 +148,8 @@
     <style name="CreateWalletItemImg">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:maxWidth">52dp</item>
-        <item name="android:maxHeight">52dp</item>
+        <item name="android:maxWidth">@dimen/icSizeXXl</item>
+        <item name="android:maxHeight">@dimen/icSizeXXl</item>
     </style>
 
     <style name="SliderDot_Active">
