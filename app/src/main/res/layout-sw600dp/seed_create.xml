@@ -6,16 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/dark_theme_black">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_marginHorizontal="@dimen/contMarginTablet">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginTop="6dp"
             android:paddingVertical="12dp"
             android:gravity="center_vertical"
             android:orientation="vertical">
@@ -43,39 +44,55 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/imageButton" />
         </androidx.constraintlayout.widget.ConstraintLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginTop="36dp"
             android:gravity="center">
+
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_weight="0.5"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginEnd="18dp">
-                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
-                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
-                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
-                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
-                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
-                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
+
+                <include layout="@layout/comp_tabl_create_seed__item__tablet" />
+
+                <include layout="@layout/comp_tabl_create_seed__item__tablet" />
+
+                <include layout="@layout/comp_tabl_create_seed__item__tablet" />
+
+                <include layout="@layout/comp_tabl_create_seed__item__tablet" />
+
+                <include layout="@layout/comp_tabl_create_seed__item__tablet" />
+
+                <include layout="@layout/comp_tabl_create_seed__item__tablet" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_weight="0.5"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginStart="18dp">
-                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
-                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
-                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
-                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
-                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
-                <include layout="@layout/comp_tabl_create_seed__item__tablet"/>
+
+                <include layout="@layout/comp_tabl_create_seed__item__tablet" />
+
+                <include layout="@layout/comp_tabl_create_seed__item__tablet" />
+
+                <include layout="@layout/comp_tabl_create_seed__item__tablet" />
+
+                <include layout="@layout/comp_tabl_create_seed__item__tablet" />
+
+                <include layout="@layout/comp_tabl_create_seed__item__tablet" />
+
+                <include layout="@layout/comp_tabl_create_seed__item__tablet" />
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -83,11 +100,13 @@
             android:layout_marginVertical="22dp"
             android:paddingVertical="22dp"
             tools:ignore="UseCompoundDrawables">
+
             <ImageView
                 android:layout_width="@dimen/icSizeLgTablet"
                 android:layout_height="@dimen/icSizeLgTablet"
                 android:src="@drawable/ic_copy_to_clipboard_green"
-                android:contentDescription="@string/create_seed__copy_btn"/>
+                android:contentDescription="@string/create_seed__copy_btn" />
+
             <TextView
                 style="@style/Heading3__Tablet"
                 android:layout_width="wrap_content"
@@ -96,12 +115,14 @@
                 android:layout_marginHorizontal="18dp"
                 android:textColor="@color/dark_theme_green" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_marginBottom="@dimen/bottomContMarginTablet"
+            android:layout_marginVertical="@dimen/m_42"
             android:gravity="bottom">
+
             <TextView
                 style="@style/BodySmall__Tablet"
                 android:layout_width="match_parent"
@@ -111,6 +132,7 @@
                 android:text="@string/create_seed__notice"
                 android:padding="36dp"
                 android:textColor="@color/dark_theme_white" />
+
             <Button
                 style="@style/PrimaryBtn__Tablet"
                 android:layout_width="match_parent"

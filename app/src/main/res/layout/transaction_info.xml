@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/dark_theme_black"
@@ -8,7 +9,8 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
 
         <View
             android:layout_width="match_parent"
@@ -32,8 +34,7 @@
                 style="@style/AppHeaderAlign"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="@dimen/contMargin"
-                android:layout_marginTop="4dp">
+                android:layout_marginHorizontal="@dimen/contMargin">
 
                 <ImageButton
                     android:id="@+id/imageButton"
@@ -77,7 +78,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginBottom="@dimen/bottomContMargin"
+                    android:layout_marginVertical="@dimen/m_28"
                     android:gravity="bottom"
                     android:orientation="vertical">
 

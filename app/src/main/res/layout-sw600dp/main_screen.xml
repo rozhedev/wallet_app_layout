@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_theme_green">
+
+    <LinearLayout
+        style="@style/AppHeaderAlign__Tablet"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@color/dark_theme_green">
-        <LinearLayout
-            style="@style/AppHeaderAlign__Tablet"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/shape_upper_background"
-            android:paddingTop="6dp"
-            android:paddingBottom="27dp">
-            <!--  Header  -->
-            <include layout="@layout/comp_main_screen_header"/>
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_upper_background"
+        android:paddingTop="6dp"
+        android:paddingBottom="27dp">
+        <!--  Header  -->
+        <include layout="@layout/comp_main_screen_header" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,33 +21,38 @@
             android:layout_marginTop="12dp"
             android:layout_marginHorizontal="@dimen/contMarginTablet"
             android:orientation="vertical">
+
             <TextView
                 style="@style/Body__Tablet"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto_medium"
                 android:text="@string/main_balance__title"
-                android:textColor="@color/dark_theme_gray"/>
+                android:textColor="@color/dark_theme_gray" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="6dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto_bold"
-                android:text="@string/main_balance__value"
-                android:textColor="@color/dark_theme_white"
-                android:textSize="48sp"
-                android:gravity="start"
-                android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="@string/main_balance__value"
+                    android:textColor="@color/dark_theme_white"
+                    android:textSize="48sp"
+                    android:gravity="start"
+                    android:layout_gravity="center" />
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="end"
                     android:layout_gravity="center">
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -67,7 +71,7 @@
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-        </LinearLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -76,37 +80,49 @@
         android:background="@drawable/shape_lower_background"
         android:paddingTop="30dp"
         android:layout_marginTop="3dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/contMarginTablet"
             android:orientation="vertical">
-        <include layout="@layout/comp_quick_actions"/>
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp">
-            <LinearLayout
+
+            <include layout="@layout/comp_quick_actions" />
+
+            <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:id="@+id/container">
-                <include layout="@layout/comp_main_balance_item"/>
-                <include layout="@layout/comp_main_balance_item"/>
-                <include layout="@layout/comp_main_balance_item"/>
-                <include layout="@layout/comp_main_balance_item"/>
-                <include layout="@layout/comp_main_balance_item"/>
-                <include layout="@layout/comp_main_balance_item"/>
-            </LinearLayout>
-        </ScrollView>
+                android:layout_marginTop="24dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/container">
+
+                    <include layout="@layout/comp_main_balance_item" />
+
+                    <include layout="@layout/comp_main_balance_item" />
+
+                    <include layout="@layout/comp_main_balance_item" />
+
+                    <include layout="@layout/comp_main_balance_item" />
+
+                    <include layout="@layout/comp_main_balance_item" />
+
+                    <include layout="@layout/comp_main_balance_item" />
+                </LinearLayout>
+            </ScrollView>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:layout_marginHorizontal="@dimen/contMarginTablet"
-            android:layout_marginBottom="@dimen/bottomContMarginTablet"
+            android:layout_marginVertical="@dimen/m_42"
             android:gravity="bottom">
+
             <Button
                 style="@style/GhostBtn__Tablet"
                 android:layout_width="match_parent"

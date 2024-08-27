@@ -100,7 +100,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginHorizontal="@dimen/contMargin"
-        android:layout_marginBottom="@dimen/bottomContMargin"
+        android:layout_marginVertical="@dimen/m_28"
         android:gravity="bottom"
         android:orientation="vertical">
 

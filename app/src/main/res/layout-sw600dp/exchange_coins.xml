@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/dark_theme_black"
-    >
+    android:background="@color/dark_theme_black">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         style="@style/AppHeaderAlign__Tablet"
         android:id="@+id/constraintLayout"
@@ -27,6 +27,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
         <TextView
             style="@style/AppTitle__Tablet"
             android:layout_width="wrap_content"
@@ -44,19 +45,24 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginHorizontal="@dimen/contMarginTablet">
-        <include layout="@layout/comp_select_inp" android:id="@+id/exchange_select_inp"/>
+
+        <include
+            layout="@layout/comp_select_inp"
+            android:id="@+id/exchange_select_inp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 style="@style/Body_LineSpace__Tablet"
                 android:text="@string/exchange__inp_coin_count"
-                android:layout_marginBottom="6dp"/>
+                android:layout_marginBottom="6dp" />
+
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/btnNormalHeightTablet"
@@ -64,6 +70,7 @@
                 android:textColor="@color/dark_theme_white"
                 android:paddingHorizontal="18dp"
                 android:paddingVertical="24dp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -74,18 +81,23 @@
                 android:textSize="15sp"
                 android:textColor="@color/dark_theme_green"
                 android:layout_marginBottom="6dp"
-                tools:ignore="SmallSp"/>
+                tools:ignore="SmallSp" />
         </LinearLayout>
-        <include layout="@layout/comp_select_inp" android:id="@+id/select_inp"/>
+
+        <include
+            layout="@layout/comp_select_inp"
+            android:id="@+id/select_inp" />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginBottom="@dimen/bottomContMarginTablet"
+        android:layout_marginVertical="@dimen/m_42"
         android:layout_marginHorizontal="@dimen/contMarginTablet"
         android:gravity="bottom">
+
         <Button
             style="@style/DisabledBtn__Tablet"
             android:layout_width="match_parent"

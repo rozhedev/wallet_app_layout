@@ -17,7 +17,6 @@
             style="@style/AppHeaderAlign"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
             android:orientation="vertical">
 
             <ImageButton
@@ -116,7 +115,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="@dimen/bottomContMargin"
+            android:layout_marginVertical="@dimen/m_28"
             android:gravity="bottom"
             android:orientation="vertical">
 

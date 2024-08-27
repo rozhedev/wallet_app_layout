@@ -10,7 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/shape_upper_background"
-        android:paddingTop="4dp"
         android:paddingBottom="18dp">
         <!--  Header  -->
         <include layout="@layout/comp_main_screen_header" />

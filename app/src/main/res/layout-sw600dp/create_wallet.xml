@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/dark_theme_green">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:background="@drawable/shape_upper_background"
                 android:paddingBottom="21dp">
+
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/constraintLayout"
                     android:layout_width="match_parent"
@@ -43,6 +46,7 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
+
                     <TextView
                         style="@style/AppTitle__Tablet"
                         android:layout_width="wrap_content"
@@ -55,6 +59,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -62,66 +67,77 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginHorizontal="@dimen/contMarginTablet"
                     android:gravity="center">
+
                     <TextView
                         style="@style/Heading2__Tablet"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColor="@color/dark_theme_white"
-                        android:text="@string/create_wallet__about_title"
-                        />
+                        android:text="@string/create_wallet__about_title" />
+
                     <TextView
                         style="@style/Body__Tablet"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:textColor="@color/dark_theme_gray"
-                        android:text="@string/create_wallet__about_descr"
-                        />
+                        android:text="@string/create_wallet__about_descr" />
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:layout_marginTop="20dp">
-                        <LinearLayout style="@style/CreateWalletItemLayout"
+
+                        <LinearLayout
+                            style="@style/CreateWalletItemLayout"
                             android:layout_width="400dp"
                             android:minHeight="295dp"
                             android:layout_marginEnd="18dp">
+
                             <ImageView
                                 style="@style/CreateWalletItemImg"
                                 android:minWidth="@dimen/icSizeXXlTablet"
                                 android:minHeight="@dimen/icSizeXXlTablet"
                                 android:src="@drawable/img_repeat_success"
-                                android:contentDescription="@string/create_wallet__about_item_imgDescr1"/>
+                                android:contentDescription="@string/create_wallet__about_item_imgDescr1" />
+
                             <TextView
                                 style="@style/Heading3__Tablet"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="16dp"
                                 android:text="@string/create_wallet__about_item_title1" />
+
                             <TextView
                                 style="@style/BodySmall__Tablet"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="8dp"
                                 android:text="@string/create_wallet__about_item_descr1"
-                                android:textColor="@color/dark_theme_white"/>
+                                android:textColor="@color/dark_theme_white" />
                         </LinearLayout>
-                        <LinearLayout style="@style/CreateWalletItemLayout"
+
+                        <LinearLayout
+                            style="@style/CreateWalletItemLayout"
                             android:layout_width="400dp"
                             android:minHeight="295dp"
                             android:layout_marginEnd="18dp">
+
                             <ImageView
                                 style="@style/CreateWalletItemImg"
                                 android:minWidth="@dimen/icSizeXXlTablet"
                                 android:minHeight="@dimen/icSizeXXlTablet"
                                 android:src="@drawable/img_safety"
-                                android:contentDescription="@string/create_wallet__about_item_imgDescr2"/>
+                                android:contentDescription="@string/create_wallet__about_item_imgDescr2" />
+
                             <TextView
                                 style="@style/Heading3__Tablet"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="16dp"
                                 android:text="@string/create_wallet__about_item_title2" />
+
                             <TextView
                                 style="@style/BodySmall__Tablet"
                                 android:layout_width="match_parent"
@@ -130,21 +146,26 @@
                                 android:textColor="@color/dark_theme_white"
                                 android:text="@string/create_wallet__about_item_descr2" />
                         </LinearLayout>
-                        <LinearLayout style="@style/CreateWalletItemLayout"
+
+                        <LinearLayout
+                            style="@style/CreateWalletItemLayout"
                             android:layout_width="400dp"
                             android:minHeight="295dp">
+
                             <ImageView
                                 style="@style/CreateWalletItemImg"
                                 android:minWidth="@dimen/icSizeXXlTablet"
                                 android:minHeight="@dimen/icSizeXXlTablet"
                                 android:src="@drawable/img_search_control"
-                                android:contentDescription="@string/create_wallet__about_item_imgDescr3"/>
+                                android:contentDescription="@string/create_wallet__about_item_imgDescr3" />
+
                             <TextView
                                 style="@style/Heading3__Tablet"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="16dp"
                                 android:text="@string/create_wallet__about_item_title3" />
+
                             <TextView
                                 style="@style/BodySmall__Tablet"
                                 android:layout_width="match_parent"
@@ -154,28 +175,35 @@
                                 android:text="@string/create_wallet__about_item_descr3" />
                         </LinearLayout>
                     </LinearLayout>
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:layout_marginTop="9dp"
                         android:paddingVertical="9dp"
-                        android:gravity="center"
-                        >
-                        <LinearLayout style="@style/SliderDot_Active"
+                        android:gravity="center">
+
+                        <LinearLayout
+                            style="@style/SliderDot_Active"
                             android:layout_width="12dp"
-                            android:layout_height="12dp"/>
-                        <LinearLayout style="@style/SliderDot"
+                            android:layout_height="12dp" />
+
+                        <LinearLayout
+                            style="@style/SliderDot"
                             android:layout_width="12dp"
                             android:layout_height="12dp"
-                            android:layout_marginStart="6sp"/>
-                        <LinearLayout style="@style/SliderDot"
+                            android:layout_marginStart="6sp" />
+
+                        <LinearLayout
+                            style="@style/SliderDot"
                             android:layout_width="12dp"
                             android:layout_height="12dp"
-                            android:layout_marginStart="6sp"/>
+                            android:layout_marginStart="6sp" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -183,6 +211,7 @@
                 android:background="@drawable/shape_lower_background"
                 android:layout_marginTop="3dp"
                 android:paddingTop="30dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -190,6 +219,7 @@
                     android:layout_marginHorizontal="@dimen/contMarginTablet"
                     android:background="@drawable/shape_darkgreen_rounded12"
                     android:padding="20dp">
+
                     <TextView
                         style="@style/BodySmall__Tablet"
                         android:layout_width="match_parent"
@@ -199,22 +229,26 @@
                         android:lineSpacingExtra="2.6dp"
                         android:textColorLink="@color/dark_theme_red" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:layout_marginHorizontal="@dimen/contMarginTablet"
-                    android:layout_marginVertical="42dp">
+                    android:layout_marginTop="@dimen/m_42">
+
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center">
+
                         <LinearLayout
                             android:layout_width="@dimen/icSizeXsTablet"
                             android:layout_height="@dimen/icSizeXsTablet"
                             android:background="@drawable/shape_checkbox_active"
                             android:id="@+id/icon"
-                            android:orientation="horizontal"/>
+                            android:orientation="horizontal" />
+
                         <TextView
                             style="@style/BodySmall__Tablet"
                             android:layout_width="wrap_content"
@@ -231,9 +265,10 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_marginHorizontal="@dimen/contMarginTablet"
-                    android:layout_marginBottom="@dimen/bottomContMarginTablet"
+                    android:layout_marginVertical="@dimen/m_42"
                     android:minHeight="330dp"
                     android:gravity="bottom">
+
                     <Button
                         style="@style/PrimaryBtn__Tablet"
                         android:layout_width="match_parent"
@@ -241,6 +276,6 @@
                         android:text="@string/onboarding__create_btn_label" />
                 </LinearLayout>
             </LinearLayout>
-    </LinearLayout>
+        </LinearLayout>
     </ScrollView>
 </LinearLayout>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/dark_theme_black">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         style="@style/AppHeaderAlign__Tablet"
         android:layout_marginHorizontal="@dimen/contMarginTablet"
@@ -26,6 +26,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
         <TextView
             style="@style/AppTitle__Tablet"
             android:layout_width="wrap_content"
@@ -45,8 +46,11 @@
         android:layout_marginTop="6dp"
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="@+id/constraintLayout">
-        <LinearLayout style="@style/LayoutTransInfoItem"
+
+        <LinearLayout
+            style="@style/LayoutTransInfoItem"
             android:layout_marginTop="18dp">
+
             <TextView
                 style="@style/Body_LineSpace__Tablet"
                 android:layout_width="0dp"
@@ -54,6 +58,7 @@
                 android:layout_gravity="start"
                 android:layout_weight="1"
                 android:text="@string/send_coins__item_operation_type_label" />
+
             <TextView
                 style="@style/Body_LineSpace__Tablet"
                 android:layout_width="0dp"
@@ -62,14 +67,20 @@
                 android:layout_weight="1"
                 android:text="@string/send_coins__item_operation_type_value"
                 android:textAlignment="textEnd"
-                android:textColor="@color/dark_theme_green"/>
+                android:textColor="@color/dark_theme_green" />
         </LinearLayout>
-        <include layout="@layout/comp_status_info_item__coin" android:id="@+id/status_info_item__coin"/>
-        <include layout="@layout/comp_status_info_item__coin" android:id="@+id/status_info_item__coin"/>
+
+        <include
+            layout="@layout/comp_status_info_item__coin"
+            android:id="@+id/status_info_item__coin" />
+
+        <include
+            layout="@layout/comp_status_info_item__coin"
+            android:id="@+id/status_info_item__coin" />
 
         <LinearLayout
             style="@style/Divider"
-            android:layout_marginTop="27dp"/>
+            android:layout_marginTop="27dp" />
 
         <!-- Checkboxes -->
         <LinearLayout
@@ -79,9 +90,11 @@
             android:layout_marginTop="24dp">
 
             <!-- Checkbox checked -->
-            <include layout="@layout/comp_checkbox_checked" android:id="@+id/checkbox_checked"/>
+            <include
+                layout="@layout/comp_checkbox_checked"
+                android:id="@+id/checkbox_checked" />
             <!-- Checkbox unchecked -->
-<!--            <include layout="@layout/checkbox_normal" android:id="@+id/checkbox_normal"/>-->
+            <!--            <include layout="@layout/checkbox_normal" android:id="@+id/checkbox_normal"/>-->
         </LinearLayout>
     </LinearLayout>
 
@@ -89,9 +102,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginBottom="@dimen/bottomContMarginTablet"
+        android:layout_marginVertical="@dimen/m_42"
         android:layout_marginHorizontal="@dimen/contMargin"
         android:gravity="bottom">
+
         <Button
             style="@style/PrimaryBtn__Tablet"
             android:layout_width="match_parent"

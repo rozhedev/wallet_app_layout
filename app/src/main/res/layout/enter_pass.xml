@@ -95,6 +95,7 @@
                     style="@style/BtnBehavior"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/m_32"
                     android:gravity="center">
 
                     <TextView
@@ -141,6 +142,7 @@
                     style="@style/BtnBehavior"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/m_32"
                     android:gravity="center">
 
                     <TextView
@@ -187,6 +189,7 @@
                     style="@style/BtnBehavior"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/m_32"
                     android:gravity="center">
 
                     <TextView
@@ -233,6 +236,7 @@
                     style="@style/BtnBehavior"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/m_32"
                     android:gravity="center">
 
                     <TextView
