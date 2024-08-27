@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/dark_theme_black">
+    android:background="@color/dark_theme_black"
+    android:orientation="vertical">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        style="@style/AppHeaderAlign"
         android:id="@+id/constraintLayout"
+        style="@style/AppHeaderAlign"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/contMargin"
@@ -26,6 +26,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
         <TextView
             style="@style/AppTitle"
             android:layout_width="wrap_content"
@@ -37,52 +38,60 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/imageButton" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginHorizontal="@dimen/contMargin"
         android:layout_marginTop="16dp"
         android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingVertical="10dp"
-            android:gravity="center">
+            android:gravity="center"
+            android:paddingVertical="10dp">
+
             <ImageView
                 android:layout_width="@dimen/icSizeSm"
                 android:layout_height="@dimen/icSizeSm"
                 android:contentDescription="@string/img_text__ic_arrow_back"
                 android:src="@drawable/ic_notifications" />
+
             <Switch
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
                 android:checked="true"
                 android:text="@string/notifications_item__allow_notif"
                 android:textColor="@color/dark_theme_white"
-                android:layout_marginStart="12dp"
                 tools:ignore="UseSwitchCompatOrMaterialXml" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingVertical="8dp"
             android:layout_marginTop="4dp"
-            android:gravity="center">
+            android:gravity="center"
+            android:paddingVertical="8dp">
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+
                 <ImageView
                     android:layout_width="@dimen/icSizeSm"
                     android:layout_height="@dimen/icSizeSm"
                     android:contentDescription="@string/img_text__ic_arrow_back"
                     android:src="@drawable/ic_wallet" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:layout_marginStart="12dp"
-                >
+                android:orientation="vertical">
+
                 <Switch
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -90,12 +99,13 @@
                     android:text="@string/notifications_item__activity"
                     android:textColor="@color/dark_theme_white"
                     tools:ignore="UseSwitchCompatOrMaterialXml" />
-            <TextView
-                style="@style/BodySmall"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/notifications_item__activity_descr"
-                android:textColor="@color/dark_theme_gray" />
+
+                <TextView
+                    style="@style/BodySmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notifications_item__activity_descr"
+                    android:textColor="@color/dark_theme_gray" />
             </LinearLayout>
 
         </LinearLayout>
@@ -105,20 +115,20 @@
             style="@style/SetBackgroundSwitch"
             android:layout_width="55dp"
             android:layout_height="33dp"
-            android:paddingEnd="3dp"
-            android:paddingTop="2dp"
-            android:paddingBottom="2dp"
-            android:gravity="start"
             android:layout_marginTop="16dp"
+            android:gravity="start"
+            android:paddingTop="2dp"
+            android:paddingEnd="3dp"
+            android:paddingBottom="2dp"
             tools:ignore="RtlSymmetry">
 
             <com.google.android.material.switchmaterial.SwitchMaterial
                 android:id="@+id/themesSwitch"
-                android:translationZ="100dp"
                 style="@style/iOSSwitch"
                 android:layout_width="match_parent"
                 android:layout_height="33dp"
-                app:trackTint="@color/dark_theme_black"/>
+                android:translationZ="100dp"
+                app:trackTint="@color/dark_theme_black" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

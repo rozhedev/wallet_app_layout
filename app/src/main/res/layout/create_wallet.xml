@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/dark_theme_green">
+    android:background="@color/dark_theme_green"
+    android:orientation="vertical">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
                 android:background="@drawable/shape_upper_background"
+                android:orientation="vertical"
                 android:paddingBottom="14dp">
+
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    style="@style/AppHeaderAlign"
                     android:id="@+id/constraintLayout"
+                    style="@style/AppHeaderAlign"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="@dimen/contMargin"
@@ -38,6 +41,7 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
+
                     <TextView
                         style="@style/AppTitle"
                         android:layout_width="wrap_content"
@@ -49,114 +53,135 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:layout_marginTop="16dp"
                     android:layout_marginHorizontal="@dimen/contMargin"
-                    android:gravity="center">
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <TextView
                         style="@style/Heading2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/create_wallet__about_title" />
+
                     <TextView
                         style="@style/Body"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:textColor="@color/dark_theme_gray"
-                        android:text="@string/create_wallet__about_descr" />
+                        android:text="@string/create_wallet__about_descr"
+                        android:textColor="@color/dark_theme_gray" />
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="20dp">
-                        <include layout="@layout/comp_create_wallet_item"/>
-                        <include layout="@layout/comp_create_wallet_item"/>
-                        <include layout="@layout/comp_create_wallet_item"/>
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <include layout="@layout/comp_create_wallet_item" />
+
+                        <include layout="@layout/comp_create_wallet_item" />
+
+                        <include layout="@layout/comp_create_wallet_item" />
                     </LinearLayout>
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
                         android:layout_marginTop="6dp"
-                        android:paddingVertical="6dp"
-                        android:gravity="center">
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingVertical="6dp">
+
                         <LinearLayout style="@style/SliderDot_Active" />
+
                         <LinearLayout style="@style/SliderDot" />
+
                         <LinearLayout style="@style/SliderDot" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:minHeight="340dp"
-            android:background="@drawable/shape_lower_background"
-            android:layout_marginTop="2dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:paddingTop="20dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginHorizontal="@dimen/contMargin"
-                    android:background="@drawable/shape_darkgreen_rounded12"
-                    android:padding="16dp">
-                    <TextView
-                        style="@style/BodySmall"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="@string/create_wallet__notice"
-                        android:autoLink="web"
-                        android:lineSpacingExtra="1.26dp"
-                        android:textColorLink="@color/dark_theme_red" />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_margin="@dimen/contMargin">
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center">
-                        <LinearLayout
-                            android:layout_width="@dimen/icSizeXs"
-                            android:layout_height="@dimen/icSizeXs"
-                            android:background="@drawable/shape_checkbox_active"
-                            android:id="@+id/icon"
-                            android:orientation="horizontal"/>
-                        <TextView
-                            style="@style/BodySmall"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textColor="@color/dark_theme_white"
-                            android:layout_marginStart="12dp"
-                            android:text="@string/create_wallet__checkbox_agree"
-                            android:id="@+id/label" />
-                    </LinearLayout>
-                </LinearLayout>
+                android:layout_marginTop="2dp"
+                android:background="@drawable/shape_lower_background"
+                android:minHeight="340dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:layout_marginBottom="@dimen/bottomContMargin"
-                    android:gravity="bottom">
-                    <Button
-                        style="@style/PrimaryBtn"
+                    android:paddingTop="20dp">
+
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="@dimen/btnNormalHeight"
+                        android:layout_height="wrap_content"
                         android:layout_marginHorizontal="@dimen/contMargin"
-                        android:text="@string/onboarding__create_btn_label" />
+                        android:background="@drawable/shape_darkgreen_rounded12"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            style="@style/BodySmall"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:autoLink="web"
+                            android:lineSpacingExtra="1.26dp"
+                            android:text="@string/create_wallet__notice"
+                            android:textColorLink="@color/dark_theme_red" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/contMargin"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:id="@+id/icon"
+                                android:layout_width="@dimen/icSizeXs"
+                                android:layout_height="@dimen/icSizeXs"
+                                android:background="@drawable/shape_checkbox_active"
+                                android:orientation="horizontal" />
+
+                            <TextView
+                                android:id="@+id/label"
+                                style="@style/BodySmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="12dp"
+                                android:text="@string/create_wallet__checkbox_agree"
+                                android:textColor="@color/dark_theme_white" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/bottomContMargin"
+                        android:gravity="bottom"
+                        android:orientation="vertical">
+
+                        <Button
+                            style="@style/PrimaryBtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/btnNormalHeight"
+                            android:layout_marginHorizontal="@dimen/contMargin"
+                            android:text="@string/onboarding__create_btn_label" />
+                    </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
     </ScrollView>
 </LinearLayout>

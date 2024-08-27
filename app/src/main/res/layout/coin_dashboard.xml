@@ -1,100 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/dark_theme_green">
+    android:background="@color/dark_theme_green"
+    android:orientation="vertical">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/shape_upper_background"
         android:orientation="vertical">
-    <androidx.constraintlayout.widget.ConstraintLayout
-        style="@style/AppHeaderAlign"
-        android:id="@+id/constraintLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/contMargin"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
 
-        <ImageButton
-            android:id="@+id/imageButton"
-            style="@style/HeaderActionIconLeft"
-            android:layout_width="wrap_content"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            style="@style/AppHeaderAlign"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:contentDescription="@string/img_text__ic_arrow_back"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-        <TextView
-            style="@style/AppTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="@string/send_coins__title"
-            app:layout_constraintBottom_toBottomOf="@+id/imageButton"
+            android:layout_marginHorizontal="@dimen/contMargin"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/imageButton" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginHorizontal="@dimen/contMargin"
-        android:orientation="vertical"
-        android:paddingTop="4dp"
-        android:paddingBottom="18dp">
-        <TextView
-            style="@style/Body_LineSpace"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/main_balance__title"
-            android:textColor="@color/dark_theme_gray" />
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                style="@style/HeaderActionIconLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/img_text__ic_arrow_back"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/AppTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/send_coins__title"
+                app:layout_constraintBottom_toBottomOf="@+id/imageButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageButton" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="4dp"
-            android:gravity="center">
+            android:layout_marginHorizontal="@dimen/contMargin"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:paddingTop="4dp"
+            android:paddingBottom="18dp">
+
             <TextView
-                android:layout_width="0dp"
-                android:layout_weight="0.7"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto_bold"
-                android:text="@string/main_balance__value"
-                android:textColor="@color/dark_theme_white"
-                android:textSize="32sp" />
-            <LinearLayout
+                style="@style/Body_LineSpace"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/main_balance__title"
+                android:textColor="@color/dark_theme_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
                 android:gravity="center"
-                android:paddingHorizontal="8dp"
-                android:paddingVertical="4dp"
-                android:layout_marginStart="20dp"
-                android:background="@drawable/shape_darkgreen_rounded6">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/coin_btc_rounded"
-                    android:minWidth="@dimen/icSizeXs"
-                    android:minHeight="@dimen/icSizeXs"
-                    android:contentDescription="@color/dark_theme_gray" />
+                android:orientation="horizontal">
+
                 <TextView
-                    style="@style/Caption"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="@string/main_balance__value"
+                    android:textColor="@color/dark_theme_white"
+                    android:textSize="32sp" />
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/roboto_bold"
-                    android:text="@string/send_coins__item_coin_value"
-                    android:layout_marginStart="6dp" />
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/shape_darkgreen_rounded6"
+                    android:gravity="center"
+                    android:paddingHorizontal="8dp"
+                    android:paddingVertical="4dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@color/dark_theme_gray"
+                        android:minWidth="@dimen/icSizeXs"
+                        android:minHeight="@dimen/icSizeXs"
+                        android:src="@drawable/coin_btc_rounded" />
+
+                    <TextView
+                        style="@style/Caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="@string/send_coins__item_coin_value" />
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-    </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -103,28 +113,39 @@
         android:orientation="vertical"
         android:paddingTop="18dp"
         android:paddingBottom="4dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginHorizontal="@dimen/contMargin">
+            android:layout_marginHorizontal="@dimen/contMargin"
+            android:orientation="vertical">
 
-            <include layout="@layout/comp_quick_actions"/>
-            <include layout="@layout/comp_trans_filters_header"/>
+            <include layout="@layout/comp_quick_actions" />
+
+            <include layout="@layout/comp_trans_filters_header" />
+
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:paddingTop="4dp">
+
                     <include layout="@layout/comp_coin_trans_item" />
+
                     <include layout="@layout/comp_coin_trans_item" />
+
                     <include layout="@layout/comp_coin_trans_item__exchange" />
+
                     <include layout="@layout/comp_coin_trans_item" />
+
                     <include layout="@layout/comp_coin_trans_item__exchange" />
+
                     <include layout="@layout/comp_coin_trans_item" />
+
                     <include layout="@layout/comp_coin_trans_item__exchange" />
                 </LinearLayout>
             </ScrollView>

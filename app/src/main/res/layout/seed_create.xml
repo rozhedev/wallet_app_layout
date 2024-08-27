@@ -2,15 +2,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/dark_theme_black">
+    android:background="@color/dark_theme_black"
+    android:orientation="vertical">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_marginHorizontal="@dimen/contMargin">
+        android:layout_marginHorizontal="@dimen/contMargin"
+        android:orientation="vertical">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             style="@style/AppHeaderAlign"
             android:layout_width="match_parent"
@@ -27,6 +29,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
             <TextView
                 style="@style/AppTitle"
                 android:layout_width="wrap_content"
@@ -38,82 +41,101 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/imageButton" />
         </androidx.constraintlayout.widget.ConstraintLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_marginTop="16dp"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="horizontal">
+
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_weight="0.5"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginEnd="8dp">
-                <include layout="@layout/comp_create_seed__item"/>
-                <include layout="@layout/comp_create_seed__item"/>
-                <include layout="@layout/comp_create_seed__item"/>
-                <include layout="@layout/comp_create_seed__item"/>
-                <include layout="@layout/comp_create_seed__item"/>
-                <include layout="@layout/comp_create_seed__item"/>
+                android:layout_marginEnd="8dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <include layout="@layout/comp_create_seed__item" />
+
+                <include layout="@layout/comp_create_seed__item" />
+
+                <include layout="@layout/comp_create_seed__item" />
+
+                <include layout="@layout/comp_create_seed__item" />
+
+                <include layout="@layout/comp_create_seed__item" />
+
+                <include layout="@layout/comp_create_seed__item" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_weight="0.5"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginStart="8dp">
-                <include layout="@layout/comp_create_seed__item"/>
-                <include layout="@layout/comp_create_seed__item"/>
-                <include layout="@layout/comp_create_seed__item"/>
-                <include layout="@layout/comp_create_seed__item"/>
-                <include layout="@layout/comp_create_seed__item"/>
-                <include layout="@layout/comp_create_seed__item"/>
+                android:layout_marginStart="8dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <include layout="@layout/comp_create_seed__item" />
+
+                <include layout="@layout/comp_create_seed__item" />
+
+                <include layout="@layout/comp_create_seed__item" />
+
+                <include layout="@layout/comp_create_seed__item" />
+
+                <include layout="@layout/comp_create_seed__item" />
+
+                <include layout="@layout/comp_create_seed__item" />
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center|end"
             android:layout_marginVertical="10dp"
+            android:gravity="center|end"
             android:paddingVertical="10dp"
             tools:ignore="UseCompoundDrawables">
+
             <ImageView
                 android:layout_width="@dimen/icSizeSm"
                 android:layout_height="@dimen/icSizeSm"
-                android:src="@drawable/ic_copy_to_clipboard_green"
-                android:contentDescription="@string/create_seed__copy_btn"/>
+                android:contentDescription="@string/create_seed__copy_btn"
+                android:src="@drawable/ic_copy_to_clipboard_green" />
+
             <TextView
                 style="@style/Heading3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/create_seed__copy_btn"
                 android:layout_marginHorizontal="8dp"
-                android:textColor="@color/dark_theme_green"
-                />
+                android:text="@string/create_seed__copy_btn"
+                android:textColor="@color/dark_theme_green" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
             android:layout_marginBottom="@dimen/bottomContMargin"
             android:gravity="bottom"
-            >
+            android:orientation="vertical">
+
             <TextView
                 style="@style/BodySmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/shape_darkgreen_rounded12"
-                android:text="@string/create_seed__notice"
                 android:padding="16dp"
+                android:text="@string/create_seed__notice"
                 android:textColor="@color/dark_theme_white" />
+
             <Button
                 style="@style/PrimaryBtn"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/btnNormalHeight"
-                android:text="@string/onboarding__create_btn_label"
-                android:layout_gravity="bottom" />
+                android:layout_gravity="bottom"
+                android:text="@string/onboarding__create_btn_label" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

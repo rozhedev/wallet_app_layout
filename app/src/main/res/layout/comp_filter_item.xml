@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:paddingVertical="10dp">
+
         <ImageView
+            android:id="@+id/icon"
             android:layout_width="@dimen/icSizeSm"
             android:layout_height="@dimen/icSizeSm"
-            android:contentDescription="@string/history__table_content_exchange"
-            android:src="@drawable/ic_exchange"
             android:layout_gravity="center"
-            android:id="@+id/icon"/>
+            android:contentDescription="@string/history__table_content_exchange"
+            android:src="@drawable/ic_exchange" />
+
         <TextView
+            android:id="@+id/label"
             style="@style/LayoutTransInfoItem"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/history__table_content_exchange"
+            android:layout_gravity="center"
             android:layout_marginStart="8dp"
             android:layout_weight="1"
-            android:layout_gravity="center"
-            android:id="@+id/label"/>
+            android:text="@string/history__table_content_exchange" />
     </LinearLayout>
 </layout>

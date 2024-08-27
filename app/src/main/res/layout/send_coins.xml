@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/dark_theme_black"
-    >
+    android:orientation="vertical">
+
     <androidx.constraintlayout.widget.ConstraintLayout
-        style="@style/AppHeaderAlign"
         android:id="@+id/constraintLayout"
+        style="@style/AppHeaderAlign"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/contMargin"
@@ -26,6 +25,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
         <TextView
             style="@style/AppTitle"
             android:layout_width="wrap_content"
@@ -46,8 +46,10 @@
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="@+id/constraintLayout">
 
-        <LinearLayout style="@style/LayoutTransInfoItem"
+        <LinearLayout
+            style="@style/LayoutTransInfoItem"
             android:layout_marginTop="12dp">
+
             <TextView
                 style="@style/Body_LineSpace"
                 android:layout_width="0dp"
@@ -55,6 +57,7 @@
                 android:layout_gravity="start"
                 android:layout_weight="1"
                 android:text="@string/send_coins__item_operation_type_label" />
+
             <TextView
                 style="@style/Body_LineSpace"
                 android:layout_width="0dp"
@@ -63,36 +66,50 @@
                 android:layout_weight="1"
                 android:text="@string/send_coins__item_operation_type_value"
                 android:textAlignment="textEnd"
-                android:textColor="@color/dark_theme_green"/>
+                android:textColor="@color/dark_theme_green" />
         </LinearLayout>
 
         <!--    Status info item & modifications    -->
-        <include layout="@layout/comp_status_info_item" android:id="@+id/status_info_item"/>
-        <include layout="@layout/comp_status_info_item__coin" android:id="@+id/status_info_item__coin"/>
-        <include layout="@layout/comp_status_info_item" android:id="@+id/status_info_item"/>
+        <include
+            android:id="@+id/status_info_item"
+            layout="@layout/comp_status_info_item" />
+
+        <include
+            android:id="@+id/status_info_item__coin"
+            layout="@layout/comp_status_info_item__coin" />
+
+        <include
+            android:id="@+id/status_info_item"
+            layout="@layout/comp_status_info_item" />
 
         <LinearLayout
             style="@style/Divider"
-            android:layout_marginTop="18dp"/>
+            android:layout_marginTop="18dp" />
         <!-- Checkboxes -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="16dp">
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
 
             <!-- Checkbox checked -->
-            <include layout="@layout/comp_checkbox_checked" android:id="@+id/checkbox_checked"/>
+            <include
+                android:id="@+id/checkbox_checked"
+                layout="@layout/comp_checkbox_checked" />
             <!-- Checkbox unchecked -->
-            <include layout="@layout/comp_checkbox_normal" android:id="@+id/checkbox_normal"/>
+            <include
+                android:id="@+id/checkbox_normal"
+                layout="@layout/comp_checkbox_normal" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="@dimen/bottomContMargin"
-            android:gravity="bottom">
+            android:gravity="bottom"
+            android:orientation="vertical">
+
             <Button
                 style="@style/PrimaryBtn"
                 android:layout_width="match_parent"
