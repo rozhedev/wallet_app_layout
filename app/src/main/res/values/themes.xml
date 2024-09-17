@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.Wallet_app" parent="android:Theme.Material.Light"/>
+    <style name="Theme.Wallet_app" parent="android:Theme.Material.Light" />
 
     <!--  Transaction Info Item  -->
     <style name="LayoutTransInfoItem">
@@ -32,10 +32,11 @@
         <item name="android:padding">12dp</item>
         <item name="android:src">@drawable/ic_arrow_back</item>
     </style>
+
     <style name="AppHeaderAlign">
         <item name="android:gravity">center_vertical</item>
         <item name="android:orientation">vertical</item>
-        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingTop">16dp</item>
         <item name="android:paddingBottom">8dp</item>
     </style>
     <!-- Heading 1 -->
@@ -75,6 +76,7 @@
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/dark_theme_white</item>
     </style>
+
     <style name="Body" parent="Widget.AppCompat.TextView">
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textAlignment">textStart</item>
@@ -170,6 +172,7 @@
         <item name="android:layout_marginRight">12dp</item>
         <item name="android:background">@drawable/shape_darkgreen_rounded12</item>
     </style>
+
     <style name="CreateWalletItemImg">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -182,6 +185,7 @@
         <item name="android:layout_height">8dp</item>
         <item name="android:background">@drawable/shape_slider_dot_active</item>
     </style>
+
     <style name="SliderDot">
         <item name="android:layout_width">8dp</item>
         <item name="android:layout_height">8dp</item>
@@ -230,14 +234,16 @@
     </style>
 
     <!-- Switch   -->
-    <style name="Theme.BitcoinJ"  parent="Theme.MaterialComponents.DayNight.DarkActionBar" >
+    <style name="Theme.BitcoinJ" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <item name="colorPrimary">@color/dark_theme_white</item>
         <item name="colorPrimaryDark">@color/dark_theme_white</item>
         <item name="colorAccent">@color/dark_theme_white</item>
     </style>
+
     <style name="SetBackgroundSwitch">
         <item name="android:background">@drawable/switch_green_off_light</item>
     </style>
+
     <style name="iOSSwitch" parent="Widget.MaterialComponents.CompoundButton.Switch">
         <item name="android:thumbTint">@color/dark_theme_white</item>
         <item name="android:thumb">@drawable/switch_thumb_ios</item>
